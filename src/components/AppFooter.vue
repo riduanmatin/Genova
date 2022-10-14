@@ -8,13 +8,13 @@ export default {
 </script>
 
 <template>
-  <div class="p-4 bg-zinc-300 sm:p-6">
+  <div class="p-2 bg-zinc-300 sm:p-4">
     <div class="md:flex md:justify-around mb-6 sm:mx-auto lg:mb-8">
       <div class="mb-6 md:mb-0">
         <a href="#" class="flex items-center">
           <img
-            src="../assets/Genova_Logo_no_bg.png"
-            class="mx-auto h-20"
+            src="../assets/images/Genova_Logo_no_bg.png"
+            class="mx-auto h-18 w-20"
             alt="Genova Logo"
           />
         </a>

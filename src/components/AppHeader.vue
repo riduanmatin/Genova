@@ -2,14 +2,14 @@
   <div>
     <div class="bg-white-100">
       <nav
-        class="container px-4 py-7 mx-auto md:flex md:justify-between md:items-center"
+        class="container px-4 py-5 mx-auto md:flex md:justify-between md:items-center"
       >
         <div class="flex items-center justify-between">
           <router-link
             to="/"
             class="text-xl font-bold text-gray-800 md:text-2xl hover:text-blue-400"
             ><img
-              src="../assets/Genova_Logo_no_bg.png"
+              src="../assets/images/Genova_Logo_no_bg.png"
               alt=""
               height="100"
               width="100"
