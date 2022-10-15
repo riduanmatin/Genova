@@ -1,11 +1,22 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div>
-    <h2>bambang</h2>
+  <div class="banner">
+    <Banner></Banner>
+    <TrendingProducts></TrendingProducts>
   </div>
 </template>
 
-<script></script>
+<script>
+import Banner from "../components/homepage/HomepageBanner.vue";
+import TrendingProducts from "../components/homepage/TrendingProducts.vue";
+
+export default {
+  components: { Banner, TrendingProducts },
+  data() {
+    return {};
+  },
+};
+</script>
 
 <style>
 h2 {

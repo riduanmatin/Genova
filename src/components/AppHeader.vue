@@ -94,7 +94,7 @@
             />
           </li>
           <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
-            <router-link to="/">Product</router-link>
+            <router-link to="/products">Product</router-link>
           </li>
           <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
             <router-link to="#">Recipe</router-link>

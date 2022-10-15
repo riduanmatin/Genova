@@ -28,7 +28,7 @@ export default {
         </h2>
         <p class="text-gray-600 dark:text-gray-400">0877-2003-6174</p>
       </div>
-      <div class="md:text-left sm:text-center sm:mt-2">
+      <div class="md:text-left sm:text-center">
         <h2
           class="mb-4 text-sm font-semibold text-gray-900 uppercase dark:text-white"
         >
@@ -38,7 +38,7 @@ export default {
       </div>
       <!-- </div> -->
     </div>
-    <div class="flex justify-center mt-4 space-x-6 sm:mx-auto sm:mt-0">
+    <div class="flex justify-center mt-2 space-x-6 sm:mx-auto sm:mt-0">
       <a href="#" class="text-black hover:text-stone-700">
         <span class="sr-only">Instagram</span>
         <svg
