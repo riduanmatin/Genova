@@ -7,7 +7,7 @@
     <div class="prodCards">
       <div class="row-1 flex justify-center p-5">
         <div
-          class="cards w-full max-w-sm bg-white mx-2 h-1/3 p-14 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+          class="cards w-full max-w-sm bg-white mx-2 h-1/3 p-14 rounded-lg shadow-md transition duration-500 hover:scale-105"
         >
           <a href="#">
             <img
@@ -27,7 +27,7 @@
           </div>
         </div>
         <div
-          class="cards w-full max-w-sm bg-white mx-2 h-1/3 p-14 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+          class="cards w-full max-w-sm bg-white mx-2 h-1/3 p-14 rounded-lg shadow-md transition duration-500 hover:scale-105"
         >
           <a href="#">
             <img
@@ -47,7 +47,7 @@
           </div>
         </div>
         <div
-          class="cards w-full max-w-sm bg-white mx-2 h-1/3 p-14 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+          class="cards w-full max-w-sm bg-white mx-2 h-1/3 p-14 rounded-lg shadow-md transition duration-500 hover:scale-105"
         >
           <a href="#">
             <img
@@ -69,7 +69,7 @@
       </div>
       <div class="row-1 flex justify-center p-5">
         <div
-          class="cards w-full max-w-sm bg-white mx-2 h-1/3 p-14 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+          class="cards w-full max-w-sm bg-white mx-2 h-1/3 p-14 rounded-lg shadow-md transition duration-500 hover:scale-105"
         >
           <a href="#">
             <img
@@ -89,7 +89,7 @@
           </div>
         </div>
         <div
-          class="cards w-full max-w-sm bg-white mx-2 h-1/3 p-14 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+          class="cards w-full max-w-sm bg-white mx-2 h-1/3 p-14 rounded-lg shadow-md transition duration-500 hover:scale-105"
         >
           <a href="#">
             <img
@@ -109,7 +109,7 @@
           </div>
         </div>
         <div
-          class="cards w-full max-w-sm bg-white mx-2 h-1/3 p-14 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+          class="cards w-full max-w-sm bg-white mx-2 h-1/3 p-14 rounded-lg shadow-md transition duration-500 hover:scale-105"
         >
           <a href="#">
             <img
@@ -150,6 +150,5 @@ export default {
 }
 
 .cards {
-  background-color: rgba(152, 152, 152, 1);
 }
 </style>
