@@ -1,136 +1,279 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="banner"></div>
-  <div class="products p-10">
-    <h1 class="text-left text-black px-5">PRODUCTS</h1>
-    <hr class="h-1 rounded mx-5 w-28 bg-black border-0" />
-    <div class="prodCards">
-      <div class="row-1 flex justify-center p-5">
+  <section class="container mx-auto">
+    <div class="banner"></div>
+    <div class="py-6 px-4 lg:px-12">
+      <h1 class="text-left text-black mb-2">PRODUCTS</h1>
+      <hr class="h-1 rounded w-28 bg-black border-0" />
+      <div
+        class="grid grid-cols-1 md:grid-cols-3 justify-items-center justify-center gap-12 mt-10 mb-5"
+      >
         <div
-          class="cards w-full max-w-sm bg-white mx-2 h-1/3 p-14 rounded-lg shadow-md transition duration-500 hover:scale-105"
+          class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
           <a href="#">
             <img
-              class="p-8 rounded-t-lg"
-              src="../../assets/images/fruit bland kiwi.jpg"
-              alt="product image"
+              src="../../assets/images/fruit bland mango.jpg"
+              alt="Product"
+              class="h-80 w-72 object-cover rounded-t-xl"
             />
+            <div class="px-4 py-3 w-72">
+              <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
+              <p class="text-lg font-bold text-black truncate block capitalize">
+                Product Name
+              </p>
+              <div class="flex items-center">
+                <p class="text-lg font-semibold text-black cursor-auto my-3">
+                  $149
+                </p>
+                <del>
+                  <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+                </del>
+                <div class="ml-auto">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-bag-plus"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z"
+                    />
+                    <path
+                      d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
           </a>
-          <div class="px-5 pb-5">
-            <a href="#">
-              <h5
-                class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white"
-              >
-                Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport
-              </h5>
-            </a>
-          </div>
         </div>
+
         <div
-          class="cards w-full max-w-sm bg-white mx-2 h-1/3 p-14 rounded-lg shadow-md transition duration-500 hover:scale-105"
+          class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
           <a href="#">
             <img
-              class="p-8 rounded-t-lg"
-              src="../../assets/images/fruit bland kiwi.jpg"
-              alt="product image"
+              src="https://images.unsplash.com/photo-1651950519238-15835722f8bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mjh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              alt="Product"
+              class="h-80 w-72 object-cover rounded-t-xl"
             />
+            <div class="px-4 py-3 w-72">
+              <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
+              <p class="text-lg font-bold text-black truncate block capitalize">
+                Product Name
+              </p>
+              <div class="flex items-center">
+                <p class="text-lg font-semibold text-black cursor-auto my-3">
+                  $149
+                </p>
+                <del>
+                  <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+                </del>
+                <div class="ml-auto">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-bag-plus"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z"
+                    />
+                    <path
+                      d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
           </a>
-          <div class="px-5 pb-5">
-            <a href="#">
-              <h5
-                class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white"
-              >
-                Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport
-              </h5>
-            </a>
-          </div>
         </div>
+
         <div
-          class="cards w-full max-w-sm bg-white mx-2 h-1/3 p-14 rounded-lg shadow-md transition duration-500 hover:scale-105"
+          class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
           <a href="#">
             <img
-              class="p-8 rounded-t-lg"
-              src="../../assets/images/fruit bland kiwi.jpg"
-              alt="product image"
+              src="https://images.unsplash.com/photo-1651950537598-373e4358d320?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MjV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              alt="Product"
+              class="h-80 w-72 object-cover rounded-t-xl"
             />
+            <div class="px-4 py-3 w-72">
+              <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
+              <p class="text-lg font-bold text-black truncate block capitalize">
+                Product Name
+              </p>
+              <div class="flex items-center">
+                <p class="text-lg font-semibold text-black cursor-auto my-3">
+                  $149
+                </p>
+                <del>
+                  <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+                </del>
+                <div class="ml-auto">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-bag-plus"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z"
+                    />
+                    <path
+                      d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
           </a>
-          <div class="px-5 pb-5">
-            <a href="#">
-              <h5
-                class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white"
-              >
-                Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport
-              </h5>
-            </a>
-          </div>
         </div>
-      </div>
-      <div class="row-1 flex justify-center p-5">
+
         <div
-          class="cards w-full max-w-sm bg-white mx-2 h-1/3 p-14 rounded-lg shadow-md transition duration-500 hover:scale-105"
+          class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
           <a href="#">
             <img
-              class="p-8 rounded-t-lg"
-              src="../../assets/images/fruit bland kiwi.jpg"
-              alt="product image"
+              src="https://images.unsplash.com/photo-1651950540805-b7c71869e689?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mjl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              alt="Product"
+              class="h-80 w-72 object-cover rounded-t-xl"
             />
+            <div class="px-4 py-3 w-72">
+              <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
+              <p class="text-lg font-bold text-black truncate block capitalize">
+                Product Name
+              </p>
+              <div class="flex items-center">
+                <p class="text-lg font-semibold text-black cursor-auto my-3">
+                  $149
+                </p>
+                <del>
+                  <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+                </del>
+                <div class="ml-auto">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-bag-plus"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z"
+                    />
+                    <path
+                      d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
           </a>
-          <div class="px-5 pb-5">
-            <a href="#">
-              <h5
-                class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white"
-              >
-                Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport
-              </h5>
-            </a>
-          </div>
         </div>
+
         <div
-          class="cards w-full max-w-sm bg-white mx-2 h-1/3 p-14 rounded-lg shadow-md transition duration-500 hover:scale-105"
+          class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
           <a href="#">
             <img
-              class="p-8 rounded-t-lg"
-              src="../../assets/images/fruit bland kiwi.jpg"
-              alt="product image"
+              src="https://images.unsplash.com/photo-1649261191624-ca9f79ca3fc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NDd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              alt="Product"
+              class="h-80 w-72 object-cover rounded-t-xl"
             />
+            <div class="px-4 py-3 w-72">
+              <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
+              <p class="text-lg font-bold text-black truncate block capitalize">
+                Product Name
+              </p>
+              <div class="flex items-center">
+                <p class="text-lg font-semibold text-black cursor-auto my-3">
+                  $149
+                </p>
+                <del>
+                  <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+                </del>
+                <div class="ml-auto">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-bag-plus"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z"
+                    />
+                    <path
+                      d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
           </a>
-          <div class="px-5 pb-5">
-            <a href="#">
-              <h5
-                class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white"
-              >
-                Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport
-              </h5>
-            </a>
-          </div>
         </div>
+
         <div
-          class="cards w-full max-w-sm bg-white mx-2 h-1/3 p-14 rounded-lg shadow-md transition duration-500 hover:scale-105"
+          class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
           <a href="#">
             <img
-              class="p-8 rounded-t-lg"
-              src="../../assets/images/fruit bland kiwi.jpg"
-              alt="product image"
+              src="https://images.unsplash.com/photo-1649261191606-cb2496e97eee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              alt="Product"
+              class="h-80 w-72 object-cover rounded-t-xl"
             />
+            <div class="px-4 py-3 w-72">
+              <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
+              <p class="text-lg font-bold text-black truncate block capitalize">
+                Product Name
+              </p>
+              <div class="flex items-center">
+                <p class="text-lg font-semibold text-black cursor-auto my-3">
+                  $149
+                </p>
+                <del>
+                  <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+                </del>
+                <div class="ml-auto">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-bag-plus"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z"
+                    />
+                    <path
+                      d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
           </a>
-          <div class="px-5 pb-5">
-            <a href="#">
-              <h5
-                class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white"
-              >
-                Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport
-              </h5>
-            </a>
-          </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 <script>
 export default {
@@ -140,15 +283,4 @@ export default {
   },
 };
 </script>
-<style scoped>
-.banner {
-  background-image: url("https://images8.alphacoders.com/115/1156488.png");
-  background-size: 100% 100%;
-  width: 100%;
-  height: 40vh;
-  padding: 30vh 15vw;
-}
-
-.cards {
-}
-</style>
+<style scoped></style>

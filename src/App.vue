@@ -16,7 +16,7 @@ export default {
 <template>
   <div class="flex flex-col h-screen justify-between">
     <AppHeader class="top-0" />
-    <Router-view class="mb-auto h-10 bg-green-500" />
+    <Router-view class="mb-auto" />
     <AppFooter class="bottom-0" />
   </div>
 </template>
