@@ -78,7 +78,7 @@
             <router-link to="#">Contact</router-link>
           </li>
           <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
-            <router-link to="#">Location</router-link>
+            <router-link to="/location">Location</router-link>
           </li>
         </ul>
       </nav>
