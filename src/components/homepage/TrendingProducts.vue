@@ -4,13 +4,13 @@
   <section class="container mx-auto">
     <div class="banner"></div>
     <div class="py-6 px-4 lg:px-6 lg:py-12 xl:px-12">
-      <h1 class="text-left text-black mb-2 font-semibold">TRENDING PRODUCTS</h1>
+      <h1 class="text-left text-black mb-2 font-semibold">NEW PRODUCTS</h1>
       <hr class="h-1 rounded w-28 bg-black border-0" />
       <div
-        class="grid grid-cols-2 md:grid-cols-3 justify-items-center justify-center gap-y-6 mt-10 mb-5"
+        class="grid grid-cols-2 md:grid-cols-4 justify-items-center justify-center gap-6 mt-10 mb-5"
       >
         <div
-          class="bg-yellow-200 flex flex-col h-fit bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
+          class="flex flex-col h-fit bg-white shadow-md rounded-xl hover:shadow-xl"
         >
           <a href="#">
             <img
@@ -19,15 +19,23 @@
               class="h-64 w-60 object-contain rounded-t-xl"
             />
           </a>
-          <div class="p-5">
-            <p class="text-lg font-bold text-black truncate block capitalize">
-              Trending Flavors
+          <div class="flex flex-col gap-3 p-5">
+            <p class="text-xl font-bold text-black truncate block capitalize">
+              Fruit Bland Manggo
             </p>
+            <p class="text-lg text-gray-600">RP. 100,000</p>
+            <div class="">
+              <button
+                class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
+              >
+                See More
+              </button>
+            </div>
           </div>
         </div>
 
         <div
-          class="flex flex-col bg-yellow-200 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
+          class="flex flex-col h-fit bg-white shadow-md rounded-xl hover:shadow-xl"
         >
           <a href="#">
             <img
@@ -36,15 +44,23 @@
               class="h-64 w-60 object-contain rounded-t-xl"
             />
           </a>
-          <div class="p-5">
-            <p class="text-lg font-bold text-black truncate block capitalize">
-              New Flavors
+          <div class="flex flex-col gap-3 p-5">
+            <p class="text-xl font-bold text-black truncate block capitalize">
+              Syrup Tiramisu
             </p>
+            <p class="text-lg text-gray-600">RP. 100,000</p>
+            <div class="">
+              <button
+                class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
+              >
+                See More
+              </button>
+            </div>
           </div>
         </div>
 
         <div
-          class="flex flex-col bg-yellow-200 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
+          class="flex flex-col h-fit bg-white shadow-md rounded-xl hover:shadow-xl"
         >
           <a href="#">
             <img
@@ -53,15 +69,22 @@
               class="h-64 w-60 object-contain rounded-t-xl"
             />
           </a>
-          <div class="p-5">
-            <p class="text-lg font-bold text-black truncate block capitalize">
-              Beverage Boost
+          <div class="flex flex-col gap-3 p-5">
+            <p class="text-xl font-bold text-black truncate block capitalize">
+              Syrup Vanilla
             </p>
+            <p class="text-lg text-gray-600">RP. 100,000</p>
+            <div class="">
+              <button
+                class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
+              >
+                See More
+              </button>
+            </div>
           </div>
         </div>
-
         <div
-          class="flex flex-col bg-yellow-200 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
+          class="flex flex-col h-fit bg-white shadow-md rounded-xl hover:shadow-xl"
         >
           <a href="#">
             <img
@@ -70,44 +93,18 @@
               class="h-64 w-60 object-contain rounded-t-xl"
             />
           </a>
-          <div class="p-5">
-            <p class="text-lg font-bold text-black truncate block capitalize">
-              Liquid Syrup
+          <div class="flex flex-col gap-3 p-5">
+            <p class="text-xl font-bold text-black truncate block capitalize">
+              Syrup Pandan
             </p>
-          </div>
-        </div>
-
-        <div
-          class="flex flex-col bg-yellow-200 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
-        >
-          <a href="#">
-            <img
-              src="../../assets/images/fruit bland mango.png"
-              alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
-            />
-          </a>
-          <div class="p-5">
-            <p class="text-lg font-bold text-black truncate block capitalize">
-              Powder Syrup
-            </p>
-          </div>
-        </div>
-
-        <div
-          class="flex flex-col bg-yellow-200 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
-        >
-          <a href="#">
-            <img
-              src="../../assets/images/fruit bland mango.png"
-              alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
-            />
-          </a>
-          <div class="p-5">
-            <p class="text-lg font-bold text-black truncate block capitalize">
-              Powder Drinks
-            </p>
+            <p class="text-lg text-gray-600">RP. 100,000</p>
+            <div class="">
+              <button
+                class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
+              >
+                See More
+              </button>
+            </div>
           </div>
         </div>
       </div>
