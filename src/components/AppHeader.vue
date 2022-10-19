@@ -2,7 +2,7 @@
   <div>
     <div class="p-4 bg-white-100">
       <nav
-        class="container px-4 py-5 mx-auto lg:flex lg:justify-between lg:items-center lg:px-12"
+        class="container px-4 py-5 mx-auto lg:flex lg:justify-between lg:items-center lg:px-6 xl:px-12"
       >
         <div class="flex items-center justify-between">
           <router-link
@@ -65,19 +65,19 @@
           :class="showMenu ? 'flex' : 'hidden'"
           class="flex-col mt-8 space-y-4 lg:flex lg:space-y-0 lg:flex-row lg:items-center lg:space-x-10 lg:mt-0 lg:order-1"
         >
-          <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
+          <li class="text-base font-semibold text-gray-800 hover:text-blue-400">
             <router-link to="/products">Product</router-link>
           </li>
-          <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
+          <li class="text-base font-semibold text-gray-800 hover:text-blue-400">
             <router-link to="#">Recipe</router-link>
           </li>
-          <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
+          <li class="text-base font-semibold text-gray-800 hover:text-blue-400">
             <router-link to="/about">About Us</router-link>
           </li>
-          <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
-            <router-link to="#">Contact</router-link>
+          <li class="text-base font-semibold text-gray-800 hover:text-blue-400">
+            <router-link to="/contact">Contact</router-link>
           </li>
-          <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
+          <li class="text-base font-semibold text-gray-800 hover:text-blue-400">
             <router-link to="#">Location</router-link>
           </li>
         </ul>

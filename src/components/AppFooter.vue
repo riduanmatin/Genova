@@ -56,7 +56,10 @@ export default {
         </div>
       </nav>
       <div class="flex justify-center mt-8 space-x-6">
-        <a href="#" class="text-gray-400 hover:text-gray-500">
+        <a
+          href="https://www.instagram.com/genova_indonesia/?next=%2F"
+          class="text-gray-400 hover:text-gray-500"
+        >
           <span class="sr-only">Instagram</span>
           <img src="../assets/images/instagram.png" />
         </a>

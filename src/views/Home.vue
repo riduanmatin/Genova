@@ -1,17 +1,21 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="banner">
+  <div class="">
     <Banner></Banner>
-    <TrendingProducts></TrendingProducts>
+    <TrendingProducts />
+    <NewProducts />
+    <HomepageProducts />
   </div>
 </template>
 
 <script>
 import Banner from "../components/homepage/HomepageBanner.vue";
 import TrendingProducts from "../components/homepage/TrendingProducts.vue";
+import HomepageProducts from "../components/homepage/HomepageProducts.vue";
+import NewProducts from "../components/homepage/NewProducts.vue";
 
 export default {
-  components: { Banner, TrendingProducts },
+  components: { Banner, TrendingProducts, HomepageProducts, NewProducts },
   data() {
     return {};
   },
