@@ -1,11 +1,13 @@
 <script>
 import AppHeader from "./components/AppHeader.vue";
 import AppFooter from "./components/AppFooter.vue";
+import PageLoader from "./components/PageLoader.vue";
 
 export default {
   components: {
     AppHeader,
     AppFooter,
+    PageLoader,
   },
   data: () => {
     return {};
@@ -14,6 +16,7 @@ export default {
 </script>
 
 <template>
+  <PageLoader />
   <div class="flex flex-col h-screen justify-between">
     <AppHeader class="top-0" />
     <Router-view class="mb-auto" />
