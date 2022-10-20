@@ -2,8 +2,8 @@
 <template>
   <div class="min-h-screen">
     <app-tabs class="w-11/12 lg:w-10/12 mx-auto mb-16" :tabList="tabList">
-      <template v-slot:tabPanel-1> 
-        <FindOffline></FindOffline>  
+      <template v-slot:tabPanel-1>
+        <FindOffline></FindOffline> 
       </template>
       <template v-slot:tabPanel-2> Online Store </template>
     </app-tabs>
