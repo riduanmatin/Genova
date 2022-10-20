@@ -69,7 +69,7 @@
             <router-link to="/products">Product</router-link>
           </li>
           <li class="text-base font-semibold text-gray-800 hover:text-blue-400">
-            <router-link to="#">Recipe</router-link>
+            <router-link to="/recipe">Recipe</router-link>
           </li>
           <li class="text-base font-semibold text-gray-800 hover:text-blue-400">
             <router-link to="/about">About Us</router-link>

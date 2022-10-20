@@ -6,15 +6,12 @@
       <div class="flex flex-col items-center justify-between gap-6 lg:flex-row">
         <div class="text-center mb-10 lg:text-left lg:max-w-lg lg:pr-5 lg:mb-0">
           <div class="flex flex-col gap-3 max-w-lg mb-6">
-            <h2
-              class="mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none"
+            <h1
+              class="mb-6 text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none"
             >
               The quick, brown fox<br class="hidden md:block" />
               jumps over
-              <span class="inline-block text-deep-purple-accent-400"
-                >a lazy dog</span
-              >
-            </h2>
+            </h1>
             <p class="text-base text-gray-700 md:text-lg">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
@@ -22,7 +19,7 @@
             </p>
           </div>
           <div
-            class="flex flex-col items-center justify-center md:flex-row md:justify-start"
+            class="flex flex-col items-center justify-center md:flex-row lg:justify-start"
           >
             <div class="mt-6">
               <button

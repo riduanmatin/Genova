@@ -1,9 +1,9 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <section class="container mx-auto">
-    <div class="container-awal">
+    <div class="container-awal py-12">
       <div class="about-section">
-        <div class="inner-container inner-container-shadow">
+        <div class="inner-container inner-container-shadow justify-center">
           <h1>About Us</h1>
           <p class="font-semibold">
             GENOVA adalah perusahaan yang bergerak memproduksi Premium Sirup,
@@ -25,11 +25,6 @@
             cocktail, milkshake, ice blend, hot drink dan lain-lain. Tersedia
             dalam ragam varian rasa.<br /><br />
           </p>
-          <div class="skills">
-            <span>Web Design</span>
-            <span>Photoshop & Illustrator</span>
-            <span>Coding</span>
-          </div>
         </div>
       </div>
     </div>
@@ -37,17 +32,15 @@
 </template>
 
 <style scoped>
-.container-awa {
+.container-awal {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f1f1f1;
 }
 .about-section {
-  background: url(../../assets/images/syrup_bubble_gum-removebg-preview.png)
-    no-repeat left;
-  background-size: contain;
+  background: url(../../assets/images/about-banner.jpg) no-repeat left;
+  background-size: fill;
   background-position: center center;
   background-color: #fdfdfd;
   overflow: hidden;
@@ -56,9 +49,8 @@
 
 .inner-container {
   width: 55%;
-  float: right;
   background-color: #fdfdfd;
-  padding: 45px;
+  padding: 60px;
 }
 
 .inner-container-shadow {

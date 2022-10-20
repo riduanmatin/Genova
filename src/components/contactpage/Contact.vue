@@ -42,7 +42,7 @@
           </div>
         </div>
       </div>
-      <div class="flex flex-col gap-6 pb-6 px-4 lg:px-6 xl:px-12">
+      <div class="flex flex-col gap-6 pb-6 px-4 lg:px-6">
         <div class="contact-info">
           <div class="card">
             <i class="card-icon far fa-envelope"></i>
@@ -79,14 +79,13 @@
   width: 100%;
   align-items: center;
   justify-content: center;
-  padding: 0 20px;
 }
 
 .card {
   background: #2f3542;
   margin: 0 15px;
   width: calc(33% - 20px);
-  height: 200px;
+  height: 240px;
   display: flex;
   flex-direction: column;
   justify-content: center;

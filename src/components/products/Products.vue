@@ -13,7 +13,7 @@
         >
           <a href="#">
             <img
-              src="../../assets/images/fruit bland mango.png"
+              src="../../assets/images/fruit_bland_kiwi.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
@@ -30,7 +30,7 @@
         >
           <a href="#">
             <img
-              src="../../assets/images/fruit bland mango.png"
+              src="../../assets/images/fruit_bland_kiwi.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
@@ -47,7 +47,7 @@
         >
           <a href="#">
             <img
-              src="../../assets/images/fruit bland mango.png"
+              src="../../assets/images/fruit_bland_pineapple.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
@@ -64,7 +64,7 @@
         >
           <a href="#">
             <img
-              src="../../assets/images/fruit bland mango.png"
+              src="../../assets/images/fruit_bland_raspberry.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
@@ -81,7 +81,7 @@
         >
           <a href="#">
             <img
-              src="../../assets/images/fruit bland mango.png"
+              src="../../assets/images/fruit_bland_strawberry.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
@@ -98,7 +98,7 @@
         >
           <a href="#">
             <img
-              src="../../assets/images/fruit bland mango.png"
+              src="../../assets/images/syrup_banana-removebg-preview.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
