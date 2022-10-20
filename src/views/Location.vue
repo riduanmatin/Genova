@@ -5,7 +5,9 @@
       <template v-slot:tabPanel-1>
         <FindOffline></FindOffline> 
       </template>
-      <template v-slot:tabPanel-2> Online Store </template>
+      <template v-slot:tabPanel-2>
+        <FindOnline></FindOnline>
+      </template>
     </app-tabs>
   </div>
 </template>
@@ -13,11 +15,13 @@
 <script>
 import AppTabs from "../components/location/Tabs.vue";
 import FindOffline from "../components/location/FindOffline.vue";
+import FindOnline from "../components/location/FindOnline.vue";
 
 export default {
   components: {
     AppTabs,
-    FindOffline
+    FindOffline,
+    FindOnline
   },
 
   data() {
