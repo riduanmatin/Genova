@@ -1,26 +1,26 @@
 <!-- eslint-disable vue/require-v-for-key -->
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <section class="container mx-auto">
+  <section class="container mx-auto background">
     <div class="banner"></div>
-    <div class="py-6 px-4 lg:px-6 lg:py-12 xl:px-12">
-      <h1 class="text-left text-black mb-2 font-semibold">NEW PRODUCTS</h1>
-      <hr class="h-1 rounded w-28 bg-black border-0" />
+    <div class="p-6 lg:px-6 lg:py-12 xl:px-12">
+      <h1 class="text-left text-black mb-2 font-semibold">TRENDING PRODUCTS</h1>
+      <hr class="h-1 rounded w-32 bg-black border-0" />
       <div
-        class="grid grid-cols-2 md:grid-cols-4 justify-items-center justify-center gap-6 mt-10 mb-5"
+        class="grid grid-cols-2 md:grid-cols-4 justify-items-center justify-center gap-12 mt-10 mb-5"
       >
-        <div
-          class="flex flex-col h-fit bg-white shadow-md rounded-xl hover:shadow-xl"
-        >
+        <div class="flex flex-col h-fit">
           <a href="#">
             <img
-              src="../../assets/images/fruit bland mango.png"
+              src="../../assets/images/fruit_bland_kiwi.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
           </a>
           <div class="flex flex-col gap-3 p-5">
-            <p class="text-xl font-bold text-black truncate block capitalize">
+            <p
+              class="text-lg font-semibold text-black truncate block capitalize"
+            >
               Fruit Bland Manggo
             </p>
             <p class="text-lg text-gray-600">RP. 100,000</p>
@@ -34,18 +34,18 @@
           </div>
         </div>
 
-        <div
-          class="flex flex-col h-fit bg-white shadow-md rounded-xl hover:shadow-xl"
-        >
+        <div class="flex flex-col h-fit">
           <a href="#">
             <img
-              src="../../assets/images/fruit bland mango.png"
+              src="../../assets/images/fruit_bland_passion fruit.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
           </a>
           <div class="flex flex-col gap-3 p-5">
-            <p class="text-xl font-bold text-black truncate block capitalize">
+            <p
+              class="text-lg font-semibold text-black truncate block capitalize"
+            >
               Syrup Tiramisu
             </p>
             <p class="text-lg text-gray-600">RP. 100,000</p>
@@ -59,18 +59,18 @@
           </div>
         </div>
 
-        <div
-          class="flex flex-col h-fit bg-white shadow-md rounded-xl hover:shadow-xl"
-        >
+        <div class="flex flex-col h-fit">
           <a href="#">
             <img
-              src="../../assets/images/fruit bland mango.png"
+              src="../../assets/images/fruit_bland_pineapple.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
           </a>
           <div class="flex flex-col gap-3 p-5">
-            <p class="text-xl font-bold text-black truncate block capitalize">
+            <p
+              class="text-lg font-semibold text-black truncate block capitalize"
+            >
               Syrup Vanilla
             </p>
             <p class="text-lg text-gray-600">RP. 100,000</p>
@@ -83,18 +83,18 @@
             </div>
           </div>
         </div>
-        <div
-          class="flex flex-col h-fit bg-white shadow-md rounded-xl hover:shadow-xl"
-        >
+        <div class="flex flex-col h-fit">
           <a href="#">
             <img
-              src="../../assets/images/fruit bland mango.png"
+              src="../../assets/images/fruit_bland_raspberry.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
           </a>
           <div class="flex flex-col gap-3 p-5">
-            <p class="text-xl font-bold text-black truncate block capitalize">
+            <p
+              class="text-lg font-semibold text-black truncate block capitalize"
+            >
               Syrup Pandan
             </p>
             <p class="text-lg text-gray-600">RP. 100,000</p>
@@ -235,5 +235,8 @@ export default {
 button {
   margin-right: 5px;
   margin-top: 10px;
+}
+.background {
+  background: #fffbe8;
 }
 </style>

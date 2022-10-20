@@ -1,11 +1,9 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="">
-    <Banner></Banner>
-    <TrendingProducts />
-    <NewProducts />
-    <HomepageProducts />
-  </div>
+  <Banner></Banner>
+  <TrendingProducts />
+  <NewProducts />
+  <HomepageProducts />
 </template>
 
 <script>
@@ -22,8 +20,4 @@ export default {
 };
 </script>
 
-<style>
-h2 {
-  color: red;
-}
-</style>
+<style scoped></style>

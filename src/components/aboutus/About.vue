@@ -1,12 +1,12 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <section class="container mx-auto">
-    <div class="flex flex-col gap-6 py-6 px-4 lg:px-6 lg:py-12 xl:px-12">
+    <div class="container-awal">
       <div class="about-section">
-        <div class="flex flex-col gap-6 inner-container inner-container-shadow">
+        <div class="inner-container inner-container-shadow">
           <h1>About Us</h1>
           <p class="font-semibold">
-            GENOVA adalah perusahaan yang bergerak memproduksi Premium : Sirup,
+            GENOVA adalah perusahaan yang bergerak memproduksi Premium Sirup,
             Powder Drink dan Fruitblend dengan harga yang terjangkau.
             Menggunakan bahan baku impor berkualitas, bersertifikasi halal serta
             diproduksi di Jakarta, Indonesia.Sehingga ketersediaan stock untuk
@@ -25,6 +25,11 @@
             cocktail, milkshake, ice blend, hot drink dan lain-lain. Tersedia
             dalam ragam varian rasa.<br /><br />
           </p>
+          <div class="skills">
+            <span>Web Design</span>
+            <span>Photoshop & Illustrator</span>
+            <span>Coding</span>
+          </div>
         </div>
       </div>
     </div>
@@ -32,9 +37,18 @@
 </template>
 
 <style scoped>
+.container-awa {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+}
 .about-section {
-  background: url(../../assets/images/pic.jpg) no-repeat left;
-  background-size: 55%;
+  background: url(../../assets/images/syrup_bubble_gum-removebg-preview.png)
+    no-repeat left;
+  background-size: contain;
+  background-position: center center;
   background-color: #fdfdfd;
   overflow: hidden;
   padding: 100px 0;
@@ -44,7 +58,7 @@
   width: 55%;
   float: right;
   background-color: #fdfdfd;
-  padding: 150px;
+  padding: 45px;
 }
 
 .inner-container-shadow {

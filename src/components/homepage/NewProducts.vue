@@ -7,20 +7,18 @@
       <h1 class="text-left text-black mb-2 font-semibold">NEW PRODUCTS</h1>
       <hr class="h-1 rounded w-28 bg-black border-0" />
       <div
-        class="grid grid-cols-2 md:grid-cols-4 justify-items-center justify-center gap-6 mt-10 mb-5"
+        class="grid grid-cols-2 md:grid-cols-4 justify-items-center justify-center gap-12 mt-10 mb-5"
       >
-        <div
-          class="flex flex-col h-fit bg-white shadow-md rounded-xl hover:shadow-xl"
-        >
+        <div class="flex flex-col h-fit bg-white">
           <a href="#">
             <img
-              src="../../assets/images/fruit bland mango.png"
+              src="../../assets/images/fruit_bland_strawberry.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
           </a>
           <div class="flex flex-col gap-3 p-5">
-            <p class="text-xl font-bold text-black truncate block capitalize">
+            <p class="text-lg font-bold text-black truncate block capitalize">
               Fruit Bland Manggo
             </p>
             <p class="text-lg text-gray-600">RP. 100,000</p>
@@ -34,18 +32,16 @@
           </div>
         </div>
 
-        <div
-          class="flex flex-col h-fit bg-white shadow-md rounded-xl hover:shadow-xl"
-        >
+        <div class="flex flex-col h-fit bg-white">
           <a href="#">
             <img
-              src="../../assets/images/fruit bland mango.png"
+              src="../../assets/images/syrup_banana-removebg-preview.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
           </a>
           <div class="flex flex-col gap-3 p-5">
-            <p class="text-xl font-bold text-black truncate block capitalize">
+            <p class="text-lg font-bold text-black truncate block capitalize">
               Syrup Tiramisu
             </p>
             <p class="text-lg text-gray-600">RP. 100,000</p>
@@ -59,18 +55,16 @@
           </div>
         </div>
 
-        <div
-          class="flex flex-col h-fit bg-white shadow-md rounded-xl hover:shadow-xl"
-        >
+        <div class="flex flex-col h-fit bg-white">
           <a href="#">
             <img
-              src="../../assets/images/fruit bland mango.png"
+              src="../../assets/images/syrup_blue_curacao-removebg-preview.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
           </a>
           <div class="flex flex-col gap-3 p-5">
-            <p class="text-xl font-bold text-black truncate block capitalize">
+            <p class="text-lg font-bold text-black truncate block capitalize">
               Syrup Vanilla
             </p>
             <p class="text-lg text-gray-600">RP. 100,000</p>
@@ -83,18 +77,16 @@
             </div>
           </div>
         </div>
-        <div
-          class="flex flex-col h-fit bg-white shadow-md rounded-xl hover:shadow-xl"
-        >
+        <div class="flex flex-col h-fit bg-white">
           <a href="#">
             <img
-              src="../../assets/images/fruit bland mango.png"
+              src="../../assets/images/syrup_butterscotch-removebg-preview.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
           </a>
           <div class="flex flex-col gap-3 p-5">
-            <p class="text-xl font-bold text-black truncate block capitalize">
+            <p class="text-lg font-bold text-black truncate block capitalize">
               Syrup Pandan
             </p>
             <p class="text-lg text-gray-600">RP. 100,000</p>
