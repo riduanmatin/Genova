@@ -1,9 +1,9 @@
-<!-- eslint-disable vue/multi-word-component-names -->
+<!-- eslint-disable vue/multi-word-component-names
 <template>
-  <div class="min-h-screen">
+  <div class="min-h-screen py-6">
     <app-tabs class="w-11/12 lg:w-10/12 mx-auto mb-16" :tabList="tabList">
       <template v-slot:tabPanel-1>
-        <FindOffline></FindOffline> 
+        <FindOffline></FindOffline>
       </template>
       <template v-slot:tabPanel-2>
         <FindOnline></FindOnline>
@@ -21,7 +21,7 @@ export default {
   components: {
     AppTabs,
     FindOffline,
-    FindOnline
+    FindOnline,
   },
 
   data() {
@@ -30,4 +30,4 @@ export default {
     };
   },
 };
-</script>
+</script> -->

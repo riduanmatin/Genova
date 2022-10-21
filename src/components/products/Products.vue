@@ -11,13 +11,13 @@
         <div
           class="bg-yellow-200 flex flex-col h-fit bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
-          <a href="#">
+          <router-link to="/">
             <img
-              src="../../assets/images/fruit_bland_kiwi.png"
+              src="../../assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
-          </a>
+          </router-link>
           <div class="p-5">
             <p class="text-lg font-bold text-black truncate block capitalize">
               Trending Flavors
@@ -28,13 +28,13 @@
         <div
           class="flex flex-col bg-yellow-200 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
-          <a href="#">
+          <router-link to="/">
             <img
-              src="../../assets/images/fruit_bland_kiwi.png"
+              src="../../assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
-          </a>
+          </router-link>
           <div class="p-5">
             <p class="text-lg font-bold text-black truncate block capitalize">
               New Flavors
@@ -45,13 +45,13 @@
         <div
           class="flex flex-col bg-yellow-200 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
-          <a href="#">
+          <router-link to="/">
             <img
-              src="../../assets/images/fruit_bland_pineapple.png"
+              src="../../assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
-          </a>
+          </router-link>
           <div class="p-5">
             <p class="text-lg font-bold text-black truncate block capitalize">
               Beverage Boost
@@ -62,50 +62,48 @@
         <div
           class="flex flex-col bg-yellow-200 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
-          <a href="#">
+          <router-link to="/fruit-bland">
             <img
-              src="../../assets/images/fruit_bland_raspberry.png"
+              src="../../assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
-          </a>
+          </router-link>
+          <div class="p-5">
+            <p class="text-lg font-bold text-black truncate block capitalize">
+              Fruit Bland
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex flex-col bg-yellow-200 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
+        >
+          <router-link to="/liquid-syrup">
+            <img
+              src="../../assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
+              alt="Product"
+              class="h-64 w-60 object-contain rounded-t-xl"
+            />
+          </router-link>
           <div class="p-5">
             <p class="text-lg font-bold text-black truncate block capitalize">
               Liquid Syrup
             </p>
           </div>
         </div>
-
         <div
           class="flex flex-col bg-yellow-200 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
-          <a href="#">
+          <router-link to="/liquid-syrup">
             <img
-              src="../../assets/images/fruit_bland_strawberry.png"
+              src="../../assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
-          </a>
+          </router-link>
           <div class="p-5">
             <p class="text-lg font-bold text-black truncate block capitalize">
-              Powder Syrup
-            </p>
-          </div>
-        </div>
-
-        <div
-          class="flex flex-col bg-yellow-200 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
-        >
-          <a href="#">
-            <img
-              src="../../assets/images/syrup_banana-removebg-preview.png"
-              alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
-            />
-          </a>
-          <div class="p-5">
-            <p class="text-lg font-bold text-black truncate block capitalize">
-              Powder Drinks
+              Liquid Syrup
             </p>
           </div>
         </div>

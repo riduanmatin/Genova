@@ -28,7 +28,7 @@ export default {
   height: 60vh;
 }
 .background {
-  background-image: url(../../assets/images/hero-product-banner.jpg);
+  background-image: url(../../assets/images/banner/hero-product-banner.jpg);
 }
 .border-h2 {
   border: 2px solid #997f11;
