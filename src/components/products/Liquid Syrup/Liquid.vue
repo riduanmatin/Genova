@@ -407,7 +407,6 @@
 export default {
   data() {
     return {
-      cards: [1, 2, 3, 4, 5, 6, 7, 8],
       products: [
         {
           id: 1,
@@ -416,7 +415,7 @@ export default {
             url: "../../../../assets/images/product/Syrup/syrup_banana-removebg-preview.png",
             alt: "Syrup Banana"
           },
-          price: "97000"
+          price: "97,000"
         },
         {
           id: 2,
@@ -425,7 +424,7 @@ export default {
             url: "../../../../assets/images/product/Syrup/syrup_blue_curacao-removebg-preview.png",
             alt: "Syrup Blue Curacao",
           },
-          price: "97000"
+          price: "97,000"
         },
         {
           id: 3,
@@ -434,7 +433,7 @@ export default {
             url: "../../../../assets/images/product/Syrup/syrup_bubble_gum-removebg-preview.png",
             alt: "Syrup Bubble Gum"
           },
-          price: "97000"
+          price: "97,000"
         },
         {
           id: 4,
@@ -443,7 +442,7 @@ export default {
             url: "../../../../assets/images/product/Syrup/syrup_butterscotch-removebg-preview.png",
             alt: "Syrup Butterscotch"
           },
-          price: "97000"
+          price: "97,000"
         },
         {
           id: 5,
@@ -452,7 +451,7 @@ export default {
             url: "../../../../assets/images/product/Syrup/syrup_caramel-removebg-preview.png",
             alt: "Syrup Caramel"
           },
-          price: "97000"
+          price: "97,000"
         },
         {
           id: 6,
@@ -461,7 +460,7 @@ export default {
             url: "../../../../assets/images/product/Syrup/syrup_coconut-removebg-preview.png",
             alt: "Syrup Coconut"
           },
-          price: "97000"
+          price: "97,000"
         },
         {
           id: 7,
@@ -470,7 +469,7 @@ export default {
             url: "../../../../assets/images/product/Syrup/syrup_ginger-removebg-preview.png",
             alt: "Syrup Ginger"
           },
-          price: "97000"
+          price: "97,000"
         },
         {
           id: 8,
@@ -479,7 +478,7 @@ export default {
             url: "../../../../assets/images/product/Syrup/syrup_green_apple-removebg-preview.png",
             alt: "Syrup Green Apple"
           },
-          price: "97000"
+          price: "97,000"
         },
         {
           id: 9,
@@ -488,7 +487,7 @@ export default {
             url: "../../../../assets/images/product/Syrup/syrup_hazelnut-removebg-preview.png",
             alt: "Syrup Hazelnut"
           },
-          price: "97000"
+          price: "97,000"
         },
         {
           id: 10,
@@ -497,7 +496,7 @@ export default {
             url: "../../../../assets/images/product/Syrup/syrup_irish-removebg-preview.png",
             alt: "Syrup Irish"
           },
-          price: "97000"
+          price: "97,000"
         },
         {
           id: 11,
@@ -506,7 +505,7 @@ export default {
             url: "../../../../assets/images/product/Syrup/syrup_kiwi-removebg-preview.png",
             alt: "Syrup Kiwi"
           },
-          price: "97000"
+          price: "97,000"
         },
         {
           id: 12,
@@ -515,7 +514,7 @@ export default {
             url: "../../../../assets/images/product/Syrup/syrup_lemon-removebg-preview.png",
             alt: "Syrup Lemon"
           },
-          price: "97000"
+          price: "97,000"
         },
         {
           id: 13,
@@ -524,7 +523,7 @@ export default {
             url: "../../../../assets/images/product/Syrup/syrup_lemongrass-removebg-preview.png",
             alt: "Syrup Lemongrass"
           },
-          price: "97000"
+          price: "97,000"
         },
         {
           id: 14,
@@ -533,7 +532,7 @@ export default {
             url: "../../../../assets/images/product/Syrup/syrup_lychee-removebg-preview.png",
             alt: "Syrup Lychee"
           },
-          price: "97000"
+          price: "97,000"
         },
         {
           id: 15,
@@ -542,7 +541,7 @@ export default {
             url: "../../../../assets/images/product/Syrup/syrup_mango-removebg-preview.png",
             alt: "Syrup Mango"
           },
-          price: "97000"
+          price: "97,000"
         },
         {
           id: 16,
@@ -551,7 +550,7 @@ export default {
             url: "../../../../assets/images/product/Syrup/syrup_mojito-removebg-preview.png",
             alt: "Syrup Mojito"
           },
-          price: "97000"
+          price: "97,000"
         },
         {
           id: 17,
@@ -560,7 +559,7 @@ export default {
             url: "../../../../assets/images/product/Syrup/syrup_pandan-removebg-preview.png",
             alt: "Syrup Pandan"
           },
-          price: "97000"
+          price: "97,000"
         },
         {
           id: 18,
@@ -569,7 +568,7 @@ export default {
             url: "../../../../assets/images/product/Syrup/syrup_pasion_fruit-removebg-preview.png",
             alt: "Syrup Passion Fruit"
           },
-          price: "97000"
+          price: "97,000"
         },
         {
           id: 19,
@@ -578,7 +577,7 @@ export default {
             url: "../../../../assets/images/product/Syrup/syrup_peach-removebg-preview.png",
             alt: "Syrup Peach"
           },
-          price: "97000"
+          price: "97,000"
         },
         {
           id: 20,
@@ -587,7 +586,7 @@ export default {
             url: "../../../../assets/images/product/Syrup/syrup_peppermint-removebg-preview.png",
             alt: "Syrup Peppermint"
           },
-          price: "97000"
+          price: "97,000"
         },
         {
           id: 21,
@@ -596,7 +595,7 @@ export default {
             url: "../../../../assets/images/product/Syrup/syrup_strawberry-removebg-preview.png",
             alt: "Syrup Strawberry"
           },
-          price: "97000"
+          price: "97,000"
         },
         {
           id: 22,
@@ -605,7 +604,7 @@ export default {
             url: "../../../../assets/images/product/Syrup/syrup_tiramisu-removebg-preview.png",
             alt: "Syrup Tiramisu"
           },
-          price: "97000"
+          price: "97,000"
         },
         {
           id: 23,
@@ -614,12 +613,9 @@ export default {
             url: "../../../../assets/images/product/Syrup/syrup_vanilla-removebg-preview.png",
             alt: "Syrup Vanilla"
           },
-          price: "97000"
+          price: "97,000"
         },
       ],
-      innerStyles: {},
-      step: "",
-      transitioning: false,
     };
   },
   //   mounted() {
