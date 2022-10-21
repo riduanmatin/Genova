@@ -22,13 +22,6 @@
             <p class="text-lg font-bold text-black truncate block capitalize">
               Trending Flavors
             </p>
-            <div class="mt-6">
-              <button
-                class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
-              >
-                See More
-              </button>
-            </div>
           </div>
         </div>
 
@@ -46,13 +39,6 @@
             <p class="text-lg font-bold text-black truncate block capitalize">
               New Flavors
             </p>
-            <div class="mt-6">
-              <button
-                class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
-              >
-                See More
-              </button>
-            </div>
           </div>
         </div>
 
@@ -70,13 +56,6 @@
             <p class="text-lg font-bold text-black truncate block capitalize">
               Beverage Boost
             </p>
-            <div class="mt-6">
-              <button
-                class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
-              >
-                See More
-              </button>
-            </div>
           </div>
         </div>
 
@@ -94,14 +73,6 @@
             <p class="text-lg font-bold text-black truncate block capitalize">
               Liquid Syrup
             </p>
-            <div class="mt-6">
-              <button
-                @click="$router.push('liquid-syrup')"
-                class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
-              >
-                See More
-              </button>
-            </div>
           </div>
         </div>
 
@@ -119,13 +90,6 @@
             <p class="text-lg font-bold text-black truncate block capitalize">
               Powder Syrup
             </p>
-            <div class="mt-6">
-              <button
-                class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
-              >
-                See More
-              </button>
-            </div>
           </div>
         </div>
 
@@ -143,14 +107,6 @@
             <p class="text-lg font-bold text-black truncate block capitalize">
               Fruit Bland
             </p>
-            <div class="mt-6">
-              <button
-                @click="$router.push('fruit-bland')"
-                class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
-              >
-                See More
-              </button>
-            </div>
           </div>
         </div>
       </div>
