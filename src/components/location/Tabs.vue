@@ -21,15 +21,28 @@
           'text-black': index + 1 !== activeTab,
         }"
       >
-        <label
+        <!-- <label
           :for="`${_uid}${index}`"
           v-text="tab"
           class="cursor-pointer block"
+        /> -->
+        <label
+          :for="`${index}`"
+          v-text="tab"
+          class="cursor-pointer block"
         />
-        <input
+        <!-- <input
           :id="`${_uid}${index}`"
           type="radio"
           :name="`${_uid}-tab`"
+          :value="index + 1"
+          v-model="activeTab"
+          class="hidden"
+        /> -->
+        <input
+          :id="`${index}`"
+          type="radio"
+          :name="`-tab`"
           :value="index + 1"
           v-model="activeTab"
           class="hidden"

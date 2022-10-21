@@ -1,6 +1,6 @@
 <template>
   <div class="w-full flex justify-center">
-    <div>
+    <div class="w-2/4">
       <div
         class="p-6 bg-white border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
       >
@@ -10,7 +10,7 @@
           Genova Jakarta
         </h5>
         <table class="w-100 mb-3">
-          <tr style="background: rgba(255, 251, 232, 1);">
+          <tr style="background: rgba(255, 251, 232, 1)">
             <td class="w-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +23,10 @@
                 />
               </svg>
             </td>
-            <td>Jl. Jalan 38, Cikini, Menteng, Jakarta Pusat 10340</td>
+            <td class="">
+              Komplek PU jln B no 18 RC Veteran - tanah kusir jakarta Selatan
+              12330
+            </td>
           </tr>
 
           <tr>
@@ -39,9 +42,9 @@
                 />
               </svg>
             </td>
-            <td class="text-left">0855-5555-5555</td>
+            <td class="text-left">0812-1212-8171</td>
           </tr>
-          <tr style="background: rgba(255, 251, 232, 1);">
+          <tr style="background: rgba(255, 251, 232, 1)">
             <td class="w-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +57,7 @@
                 />
               </svg>
             </td>
-            <td class="text-left">Contact@genovajkt.com</td>
+            <td class="text-left">genovaindonesiaofficial@gmail.com</td>
           </tr>
           <tr>
             <td class="w-20">
@@ -71,7 +74,7 @@
             </td>
             <td class="text-left">10:00 AM - 17:00 PM</td>
           </tr>
-          <tr style="background: rgba(255, 251, 232, 1);">
+          <tr style="background: rgba(255, 251, 232, 1)">
             <td class="w-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -104,10 +107,10 @@
         <h5
           class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-left"
         >
-          Genova Jakarta
+          Genova Palangkaraya
         </h5>
         <table class="w-100 mb-3">
-          <tr style="background: rgba(255, 251, 232, 1);">
+          <tr style="background: rgba(255, 251, 232, 1)">
             <td class="w-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -120,7 +123,10 @@
                 />
               </svg>
             </td>
-            <td>Jl. Jalan 38, Cikini, Menteng, Jakarta Pusat 10340</td>
+            <td>
+              Jl. Cut Nyak Dien, Menteng, Kec. Jekan Raya, Kota Palangka Raya,
+              Kalimantan Tengah 74874
+            </td>
           </tr>
           <tr>
             <td class="w-20">
@@ -135,9 +141,9 @@
                 />
               </svg>
             </td>
-            <td class="text-left">0855-5555-5555</td>
+            <td class="text-left">0812-1747-275</td>
           </tr>
-          <tr style="background: rgba(255, 251, 232, 1);">
+          <tr style="background: rgba(255, 251, 232, 1)">
             <td class="w-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -150,7 +156,7 @@
                 />
               </svg>
             </td>
-            <td class="text-left">Contact@genovajkt.com</td>
+            <td class="text-left">genovaindonesiaofficial@gmail.com</td>
           </tr>
           <tr>
             <td class="w-20">
@@ -167,7 +173,7 @@
             </td>
             <td class="text-left">10:00 AM - 17:00 PM</td>
           </tr>
-          <tr style="background: rgba(255, 251, 232, 1);">
+          <tr style="background: rgba(255, 251, 232, 1)">
             <td class="w-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -195,17 +201,17 @@
         </div>
       </div>
     </div>
-    <div>
+    <div class="w-2/4">
       <div
         class="p-6 bg-white border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
       >
         <h5
           class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-left"
         >
-          Genova Jakarta
+          Genova Riau
         </h5>
         <table class="w-100 mb-3">
-          <tr style="background: rgba(255, 251, 232, 1);">
+          <tr style="background: rgba(255, 251, 232, 1)">
             <td class="w-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -218,7 +224,10 @@
                 />
               </svg>
             </td>
-            <td>Jl. Jalan 38, Cikini, Menteng, Jakarta Pusat 10340</td>
+            <td>
+              Jl. Wisma PGRI No.29, Delima, Kec. Tampan, Kota Pekanbaru, Riau
+              28291
+            </td>
           </tr>
           <tr>
             <td class="w-20">
@@ -233,9 +242,9 @@
                 />
               </svg>
             </td>
-            <td class="text-left">0855-5555-5555</td>
+            <td class="text-left">0813-9902-1010</td>
           </tr>
-          <tr style="background: rgba(255, 251, 232, 1);">
+          <tr style="background: rgba(255, 251, 232, 1)">
             <td class="w-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -248,7 +257,7 @@
                 />
               </svg>
             </td>
-            <td class="text-left">Contact@genovajkt.com</td>
+            <td class="text-left">genovaindonesiaofficial@gmail.com</td>
           </tr>
           <tr>
             <td class="w-20">
@@ -265,7 +274,7 @@
             </td>
             <td class="text-left">10:00 AM - 17:00 PM</td>
           </tr>
-          <tr style="background: rgba(255, 251, 232, 1);">
+          <tr style="background: rgba(255, 251, 232, 1)">
             <td class="w-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -298,10 +307,10 @@
         <h5
           class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-left"
         >
-          Genova Jakarta
+          Genova Bogor
         </h5>
         <table class="w-100 mb-3">
-          <tr style="background: rgba(255, 251, 232, 1);">
+          <tr style="background: rgba(255, 251, 232, 1)">
             <td class="w-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -314,7 +323,10 @@
                 />
               </svg>
             </td>
-            <td>Jl. Jalan 38, Cikini, Menteng, Jakarta Pusat 10340</td>
+            <td>
+              Jl. Raya Bojong Koneng No.157, Bojong Koneng, Kec. Babakan Madang,
+              Kabupaten Bogor, Jawa Barat 16810
+            </td>
           </tr>
           <tr>
             <td class="w-20">
@@ -329,9 +341,9 @@
                 />
               </svg>
             </td>
-            <td class="text-left">0855-5555-5555</td>
+            <td class="text-left">0813-8036-7558</td>
           </tr>
-          <tr style="background: rgba(255, 251, 232, 1);">
+          <tr style="background: rgba(255, 251, 232, 1)">
             <td class="w-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -344,7 +356,7 @@
                 />
               </svg>
             </td>
-            <td class="text-left">Contact@genovajkt.com</td>
+            <td class="text-left">genovaindonesiaofficial@gmail.com</td>
           </tr>
           <tr>
             <td class="w-20">
@@ -361,7 +373,7 @@
             </td>
             <td class="text-left">10:00 AM - 17:00 PM</td>
           </tr>
-          <tr style="background: rgba(255, 251, 232, 1);">
+          <tr style="background: rgba(255, 251, 232, 1)">
             <td class="w-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
