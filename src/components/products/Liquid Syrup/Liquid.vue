@@ -408,31 +408,215 @@ export default {
   data() {
     return {
       cards: [1, 2, 3, 4, 5, 6, 7, 8],
-      //   products: [
-      //     {
-      //       productTitle: "ABCN",
-      //       image: [
-      //         require("../../assets/images/fruit bland mango.png"),
-      //         require("../../assets/images/fruit bland mango.png"),
-      //       ],
-      //       productId: 1,
-      //     },
-      //     {
-      //       productTitle: "KARMA",
-      //       image: [require("../../assets/images/fruit bland mango.png")],
-      //       productId: 2,
-      //     },
-      //     {
-      //       productTitle: "Tino",
-      //       image: [require("../../assets/images/fruit bland mango.png")],
-      //       productId: 3,
-      //     },
-      //     {
-      //       productTitle: "EFG",
-      //       image: [require("../../assets/images/fruit bland mango.png")],
-      //       productId: 4,
-      //     },
-      //   ],
+      products: [
+        {
+          id: 1,
+          name: "Syrup Banana",
+          image: {
+            url: "../../../../assets/images/product/Syrup/syrup_banana-removebg-preview.png",
+            alt: "Syrup Banana"
+          },
+          price: "97000"
+        },
+        {
+          id: 2,
+          name: "Syrup Blue Curacao",
+          image: {
+            url: "../../../../assets/images/product/Syrup/syrup_blue_curacao-removebg-preview.png",
+            alt: "Syrup Blue Curacao",
+          },
+          price: "97000"
+        },
+        {
+          id: 3,
+          name: "Syrup Bubble Gum",
+          image: {
+            url: "../../../../assets/images/product/Syrup/syrup_bubble_gum-removebg-preview.png",
+            alt: "Syrup Bubble Gum"
+          },
+          price: "97000"
+        },
+        {
+          id: 4,
+          name: "Syrup Butterscotch",
+          image: {
+            url: "../../../../assets/images/product/Syrup/syrup_butterscotch-removebg-preview.png",
+            alt: "Syrup Butterscotch"
+          },
+          price: "97000"
+        },
+        {
+          id: 5,
+          name: "Syrup Caramel",
+          image: {
+            url: "../../../../assets/images/product/Syrup/syrup_caramel-removebg-preview.png",
+            alt: "Syrup Caramel"
+          },
+          price: "97000"
+        },
+        {
+          id: 6,
+          name: "Syrup Coconut",
+          image: {
+            url: "../../../../assets/images/product/Syrup/syrup_coconut-removebg-preview.png",
+            alt: "Syrup Coconut"
+          },
+          price: "97000"
+        },
+        {
+          id: 7,
+          name: "Syrup Ginger",
+          image: {
+            url: "../../../../assets/images/product/Syrup/syrup_ginger-removebg-preview.png",
+            alt: "Syrup Ginger"
+          },
+          price: "97000"
+        },
+        {
+          id: 8,
+          name: "Syrup Green Apple",
+          image: {
+            url: "../../../../assets/images/product/Syrup/syrup_green_apple-removebg-preview.png",
+            alt: "Syrup Green Apple"
+          },
+          price: "97000"
+        },
+        {
+          id: 9,
+          name: "Syrup Hazelnut",
+          image: {
+            url: "../../../../assets/images/product/Syrup/syrup_hazelnut-removebg-preview.png",
+            alt: "Syrup Hazelnut"
+          },
+          price: "97000"
+        },
+        {
+          id: 10,
+          name: "Syrup Irish",
+          image: {
+            url: "../../../../assets/images/product/Syrup/syrup_irish-removebg-preview.png",
+            alt: "Syrup Irish"
+          },
+          price: "97000"
+        },
+        {
+          id: 11,
+          name: "Syrup Kiwi",
+          image: {
+            url: "../../../../assets/images/product/Syrup/syrup_kiwi-removebg-preview.png",
+            alt: "Syrup Kiwi"
+          },
+          price: "97000"
+        },
+        {
+          id: 12,
+          name: "Syrup Lemon",
+          image: {
+            url: "../../../../assets/images/product/Syrup/syrup_lemon-removebg-preview.png",
+            alt: "Syrup Lemon"
+          },
+          price: "97000"
+        },
+        {
+          id: 13,
+          name: "Syrup Lemongrass",
+          image: {
+            url: "../../../../assets/images/product/Syrup/syrup_lemongrass-removebg-preview.png",
+            alt: "Syrup Lemongrass"
+          },
+          price: "97000"
+        },
+        {
+          id: 14,
+          name: "Syrup Lychee",
+          image: {
+            url: "../../../../assets/images/product/Syrup/syrup_lychee-removebg-preview.png",
+            alt: "Syrup Lychee"
+          },
+          price: "97000"
+        },
+        {
+          id: 15,
+          name: "Syrup Mango",
+          image: {
+            url: "../../../../assets/images/product/Syrup/syrup_mango-removebg-preview.png",
+            alt: "Syrup Mango"
+          },
+          price: "97000"
+        },
+        {
+          id: 16,
+          name: "Syrup Mojito",
+          image: {
+            url: "../../../../assets/images/product/Syrup/syrup_mojito-removebg-preview.png",
+            alt: "Syrup Mojito"
+          },
+          price: "97000"
+        },
+        {
+          id: 17,
+          name: "Syrup Pandan",
+          image: {
+            url: "../../../../assets/images/product/Syrup/syrup_pandan-removebg-preview.png",
+            alt: "Syrup Pandan"
+          },
+          price: "97000"
+        },
+        {
+          id: 18,
+          name: "Syrup Passion Fruit",
+          image: {
+            url: "../../../../assets/images/product/Syrup/syrup_pasion_fruit-removebg-preview.png",
+            alt: "Syrup Passion Fruit"
+          },
+          price: "97000"
+        },
+        {
+          id: 19,
+          name: "Syrup Peach",
+          image: {
+            url: "../../../../assets/images/product/Syrup/syrup_peach-removebg-preview.png",
+            alt: "Syrup Peach"
+          },
+          price: "97000"
+        },
+        {
+          id: 20,
+          name: "Syrup Peppermint",
+          image: {
+            url: "../../../../assets/images/product/Syrup/syrup_peppermint-removebg-preview.png",
+            alt: "Syrup Peppermint"
+          },
+          price: "97000"
+        },
+        {
+          id: 21,
+          name: "Syrup Strawberry",
+          image: {
+            url: "../../../../assets/images/product/Syrup/syrup_strawberry-removebg-preview.png",
+            alt: "Syrup Strawberry"
+          },
+          price: "97000"
+        },
+        {
+          id: 22,
+          name: "Syrup Tiramisu",
+          image: {
+            url: "../../../../assets/images/product/Syrup/syrup_tiramisu-removebg-preview.png",
+            alt: "Syrup Tiramisu"
+          },
+          price: "97000"
+        },
+        {
+          id: 23,
+          name: "Syrup Vanilla",
+          image: {
+            url: "../../../../assets/images/product/Syrup/syrup_vanilla-removebg-preview.png",
+            alt: "Syrup Vanilla"
+          },
+          price: "97000"
+        },
+      ],
       innerStyles: {},
       step: "",
       transitioning: false,
