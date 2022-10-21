@@ -1,33 +1,43 @@
-<!-- eslint-disable vue/multi-word-component-names
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="min-h-screen py-6">
-    <app-tabs class="w-11/12 lg:w-10/12 mx-auto mb-16" :tabList="tabList">
-      <template v-slot:tabPanel-1>
-        <FindOffline></FindOffline>
-      </template>
-      <template v-slot:tabPanel-2>
-        <FindOnline></FindOnline>
-      </template>
-    </app-tabs>
-  </div>
+  <!-- Tabs -->
+  <section class="container mx-auto">
+    <div class="my-12">
+      <ul class="flex flex-row mb-4 justify-center gap-2">
+        <li class="text-center underline">
+          <h2
+            class="text-lg cursor-pointer block rounded py-3 px-4 transition"
+            @click.prevent="tab = 'offline'"
+          >
+            Offline Store
+          </h2>
+        </li>
+        <li class="text-center">
+          <h2
+            class="text-lg cursor-pointer block rounded py-3 px-4 transition"
+            @click.prevent="tab = 'online'"
+          >
+            Online Store
+          </h2>
+        </li>
+      </ul>
+    </div>
+
+    <FindOffline v-if="tab === 'offline'" />
+    <FindOnline v-else />
+  </section>
 </template>
 
 <script>
-import AppTabs from "../components/location/Tabs.vue";
 import FindOffline from "../components/location/FindOffline.vue";
 import FindOnline from "../components/location/FindOnline.vue";
 
 export default {
-  components: {
-    AppTabs,
-    FindOffline,
-    FindOnline,
-  },
-
+  components: { FindOffline, FindOnline },
   data() {
-    return {
-      tabList: ["Find Nearby", "Find Online"],
-    };
+    return { tab: "offline" };
   },
 };
-</script> -->
+</script>
+
+<style scoped></style>

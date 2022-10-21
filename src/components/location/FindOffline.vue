@@ -1,393 +1,382 @@
 <template>
-  <div class="w-full flex justify-center">
-    <div>
-      <div
-        class="p-6 bg-white border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
-      >
-        <h5
-          class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-left"
-        >
-          Genova Jakarta
-        </h5>
-        <table class="w-100 mb-3">
-          <tr style="background: rgba(255, 251, 232, 1)">
-            <td class="w-20">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 384 512"
-                class="w-5 h-5 fill-current"
-              >
-                <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                <path
-                  d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"
-                />
-              </svg>
-            </td>
-            <td>Jl. Jalan 38, Cikini, Menteng, Jakarta Pusat 10340</td>
-          </tr>
-
-          <tr>
-            <td class="w-20">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 384 512"
-                class="h-5 w-5 fill-current"
-              >
-                <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                <path
-                  d="M16 64C16 28.7 44.7 0 80 0H304c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H80c-35.3 0-64-28.7-64-64V64zM224 448c0-17.7-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32s32-14.3 32-32zM304 64H80V384H304V64z"
-                />
-              </svg>
-            </td>
-            <td class="text-left">0855-5555-5555</td>
-          </tr>
-          <tr style="background: rgba(255, 251, 232, 1)">
-            <td class="w-20">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"
-                class="h-5 w-5 fill-current"
-              >
-                <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                <path
-                  d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
-                />
-              </svg>
-            </td>
-            <td class="text-left">Contact@genovajkt.com</td>
-          </tr>
-          <tr>
-            <td class="w-20">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"
-                class="h-5 w-5 fill-current"
-              >
-                <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                <path
-                  d="M232 120C232 106.7 242.7 96 256 96C269.3 96 280 106.7 280 120V243.2L365.3 300C376.3 307.4 379.3 322.3 371.1 333.3C364.6 344.3 349.7 347.3 338.7 339.1L242.7 275.1C236 271.5 232 264 232 255.1L232 120zM256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0zM48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48C141.1 48 48 141.1 48 256z"
-                />
-              </svg>
-            </td>
-            <td class="text-left">10:00 AM - 17:00 PM</td>
-          </tr>
-          <tr style="background: rgba(255, 251, 232, 1)">
-            <td class="w-20">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 448 512"
-                class="h-5 w-5 fill-current"
-              >
-                <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                <path
-                  d="M152 64H296V24C296 10.75 306.7 0 320 0C333.3 0 344 10.75 344 24V64H384C419.3 64 448 92.65 448 128V448C448 483.3 419.3 512 384 512H64C28.65 512 0 483.3 0 448V128C0 92.65 28.65 64 64 64H104V24C104 10.75 114.7 0 128 0C141.3 0 152 10.75 152 24V64zM48 448C48 456.8 55.16 464 64 464H384C392.8 464 400 456.8 400 448V192H48V448z"
-                />
-              </svg>
-            </td>
-            <td class="text-left">Monday - Friday</td>
-          </tr>
-        </table>
-
-        <div class="">
-          <a href="#"
-            ><button
-              class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
-            >
-              Direction
-            </button></a
-          >
+  <section class="container mx-auto">
+    <div class="flex flex-col gap-12 my-12 px-6 xl:px-12">
+      <div class="">
+        <div class="text-center map-responsive" v-if="map === 'default'">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0203262222835!2d106.76626831485463!3d-6.261052595468134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f0556e12d9e1%3A0xb7dee4c20b04d2f6!2sJl.%20RC.%20Veteran%20Raya%20No.18%2C%20RT.4%2FRW.1%2C%20Bintaro%2C%20Kec.%20Pesanggrahan%2C%20Kota%20Jakarta%20Selatan%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2012330!5e0!3m2!1sen!2sid!4v1666345801834!5m2!1sen!2sid"
+            width="600"
+            height="450"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="text-center map-responsive" v-if="map === 'palangkaraya'">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.8326439098923!2d113.90558411484106!3d-2.2167132983842732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dfcb2fe5ab00ee5%3A0x4120bbd562d6b809!2sJl.%20Cut%20Nyak%20Dien%2C%20Menteng%2C%20Kec.%20Jekan%20Raya%2C%20Kota%20Palangka%20Raya%2C%20Kalimantan%20Tengah%2074874!5e0!3m2!1sen!2sid!4v1666346107663!5m2!1sen!2sid"
+            width="600"
+            height="450"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="text-center map-responsive" v-if="map === 'riau'">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.677324231581!2d101.41036891483925!3d0.4816880996485761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d5a921c08f56d7%3A0xaa59c49e5ae75d4c!2sJl.%20Wisma%20Pgri%20No.29%2C%20Delima%2C%20Kec.%20Tampan%2C%20Kota%20Pekanbaru%2C%20Riau%2028292!5e0!3m2!1sen!2sid!4v1666355654764!5m2!1sen!2sid"
+            width="600"
+            height="450"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="text-center map-responsive" v-if="map === 'bogor'">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.4728142611816!2d106.8844037148563!3d-6.58800029523558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c7a197cd003f%3A0xe7a8d9e110d2823c!2sJl.%20Raya%20Bojong%20Koneng%20No.157%2C%20RT.02%2FRW.01%2C%20Bojong%20Koneng%2C%20Kec.%20Babakan%20Madang%2C%20Kabupaten%20Bogor%2C%20Jawa%20Barat%2016810!5e0!3m2!1sen!2sid!4v1666355697729!5m2!1sen!2sid"
+            width="600"
+            height="450"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </div>
-      <div
-        class="p-6 bg-white border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
-      >
-        <h5
-          class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-left"
-        >
-          Genova Jakarta
-        </h5>
-        <table class="w-100 mb-3">
-          <tr style="background: rgba(255, 251, 232, 1)">
-            <td class="w-20">
+      <div class="grid grid-cols-1 md:grid-cols-2">
+        <div class="flex flex-col border p-4 gap-6">
+          <h3 class="text-2xl tracking-tight text-gray-900 text-left">
+            Genova Jakarta
+          </h3>
+          <div class="flex flex-col gap-2">
+            <div
+              class="inline-flex space-x-6 background-yellow p-2 md:p-4 text-left"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 384 512"
-                class="w-5 h-5 fill-current"
+                class="w-6 h-6"
               >
-                <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                 <path
-                  d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"
+                  d="M384 192c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192z"
                 />
               </svg>
-            </td>
-            <td>Jl. Jalan 38, Cikini, Menteng, Jakarta Pusat 10340</td>
-          </tr>
-          <tr>
-            <td class="w-20">
+              <p>
+                Komplek PU jln B no 18 RC Veteran - tanah kusir jakarta Selatan
+                12330
+              </p>
+            </div>
+            <div
+              class="inline-flex space-x-6 background-yellow p-2 md:p-4 text-left"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 384 512"
-                class="h-5 w-5 fill-current"
+                class="w-6 h-6"
               >
-                <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                 <path
-                  d="M16 64C16 28.7 44.7 0 80 0H304c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H80c-35.3 0-64-28.7-64-64V64zM224 448c0-17.7-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32s32-14.3 32-32zM304 64H80V384H304V64z"
+                  d="M80 0C44.7 0 16 28.7 16 64V448c0 35.3 28.7 64 64 64H304c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H80zm80 432h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H160c-8.8 0-16-7.2-16-16s7.2-16 16-16z"
                 />
               </svg>
-            </td>
-            <td class="text-left">0855-5555-5555</td>
-          </tr>
-          <tr style="background: rgba(255, 251, 232, 1)">
-            <td class="w-20">
+              <p>
+                <a href="tel:081212128171" class="hover:text-blue-400"
+                  >081212128171 ( Bu Novi )</a
+                >
+              </p>
+            </div>
+            <div
+              class="inline-flex space-x-6 background-yellow p-2 md:p-4 text-left"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
-                class="h-5 w-5 fill-current"
+                class="w-6 h-6"
               >
-                <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                 <path
-                  d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
+                  d="M256 512C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256s-114.6 256-256 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"
                 />
               </svg>
-            </td>
-            <td class="text-left">Contact@genovajkt.com</td>
-          </tr>
-          <tr>
-            <td class="w-20">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"
-                class="h-5 w-5 fill-current"
-              >
-                <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                <path
-                  d="M232 120C232 106.7 242.7 96 256 96C269.3 96 280 106.7 280 120V243.2L365.3 300C376.3 307.4 379.3 322.3 371.1 333.3C364.6 344.3 349.7 347.3 338.7 339.1L242.7 275.1C236 271.5 232 264 232 255.1L232 120zM256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0zM48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48C141.1 48 48 141.1 48 256z"
-                />
-              </svg>
-            </td>
-            <td class="text-left">10:00 AM - 17:00 PM</td>
-          </tr>
-          <tr style="background: rgba(255, 251, 232, 1)">
-            <td class="w-20">
+              <p>10:00 AM - 17:00 PM</p>
+            </div>
+            <div
+              class="inline-flex space-x-6 background-yellow p-2 md:p-4 text-left"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
-                class="h-5 w-5 fill-current"
+                class="w-6 h-6"
               >
-                <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                 <path
-                  d="M152 64H296V24C296 10.75 306.7 0 320 0C333.3 0 344 10.75 344 24V64H384C419.3 64 448 92.65 448 128V448C448 483.3 419.3 512 384 512H64C28.65 512 0 483.3 0 448V128C0 92.65 28.65 64 64 64H104V24C104 10.75 114.7 0 128 0C141.3 0 152 10.75 152 24V64zM48 448C48 456.8 55.16 464 64 464H384C392.8 464 400 456.8 400 448V192H48V448z"
+                  d="M96 32V64H48C21.5 64 0 85.5 0 112v48H448V112c0-26.5-21.5-48-48-48H352V32c0-17.7-14.3-32-32-32s-32 14.3-32 32V64H160V32c0-17.7-14.3-32-32-32S96 14.3 96 32zM448 192H0V464c0 26.5 21.5 48 48 48H400c26.5 0 48-21.5 48-48V192z"
                 />
               </svg>
-            </td>
-            <td class="text-left">Monday - Friday</td>
-          </tr>
-        </table>
-
-        <div class="">
-          <a href="#"
-            ><button
-              class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
+              <p>Monday - Friday</p>
+            </div>
+          </div>
+          <div class="">
+            <a href="#"
+              ><button
+                @click.prevent="map = 'default'"
+                class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
+              >
+                Direction
+              </button></a
             >
-              Direction
-            </button></a
-          >
+          </div>
         </div>
-      </div>
-    </div>
-    <div>
-      <div
-        class="p-6 bg-white border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
-      >
-        <h5
-          class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-left"
-        >
-          Genova Jakarta
-        </h5>
-        <table class="w-100 mb-3">
-          <tr style="background: rgba(255, 251, 232, 1)">
-            <td class="w-20">
+        <div class="flex flex-col border p-4 gap-6">
+          <h3 class="text-2xl tracking-tight text-gray-900 text-left">
+            Genova Palangkaraya
+          </h3>
+          <div class="flex flex-col gap-2">
+            <div
+              class="inline-flex space-x-6 background-yellow p-2 md:p-4 text-left"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 384 512"
-                class="w-5 h-5 fill-current"
+                class="w-6 h-6"
               >
-                <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                 <path
-                  d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"
+                  d="M384 192c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192z"
                 />
               </svg>
-            </td>
-            <td>Jl. Jalan 38, Cikini, Menteng, Jakarta Pusat 10340</td>
-          </tr>
-          <tr>
-            <td class="w-20">
+              <p>
+                Jl. Cut Nyak Dien, Menteng, Kec. Jekan Raya, Kota Palangka Raya,
+                Kalimantan Tengah
+              </p>
+            </div>
+            <div
+              class="inline-flex space-x-6 background-yellow p-2 md:p-4 text-left"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 384 512"
-                class="h-5 w-5 fill-current"
+                class="w-6 h-6"
               >
-                <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                 <path
-                  d="M16 64C16 28.7 44.7 0 80 0H304c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H80c-35.3 0-64-28.7-64-64V64zM224 448c0-17.7-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32s32-14.3 32-32zM304 64H80V384H304V64z"
+                  d="M80 0C44.7 0 16 28.7 16 64V448c0 35.3 28.7 64 64 64H304c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H80zm80 432h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H160c-8.8 0-16-7.2-16-16s7.2-16 16-16z"
                 />
               </svg>
-            </td>
-            <td class="text-left">0855-5555-5555</td>
-          </tr>
-          <tr style="background: rgba(255, 251, 232, 1)">
-            <td class="w-20">
+              <p>
+                <a href="tel:0812-1747-275" class="hover:text-blue-400">
+                  0812-1747-275 ( Bp Ibnu )
+                </a>
+              </p>
+            </div>
+            <div
+              class="inline-flex space-x-6 background-yellow p-2 md:p-4 text-left"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
-                class="h-5 w-5 fill-current"
+                class="w-6 h-6"
               >
-                <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                 <path
-                  d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
+                  d="M256 512C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256s-114.6 256-256 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"
                 />
               </svg>
-            </td>
-            <td class="text-left">Contact@genovajkt.com</td>
-          </tr>
-          <tr>
-            <td class="w-20">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"
-                class="h-5 w-5 fill-current"
-              >
-                <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                <path
-                  d="M232 120C232 106.7 242.7 96 256 96C269.3 96 280 106.7 280 120V243.2L365.3 300C376.3 307.4 379.3 322.3 371.1 333.3C364.6 344.3 349.7 347.3 338.7 339.1L242.7 275.1C236 271.5 232 264 232 255.1L232 120zM256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0zM48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48C141.1 48 48 141.1 48 256z"
-                />
-              </svg>
-            </td>
-            <td class="text-left">10:00 AM - 17:00 PM</td>
-          </tr>
-          <tr style="background: rgba(255, 251, 232, 1)">
-            <td class="w-20">
+              <p>10:00 AM - 17:00 PM</p>
+            </div>
+            <div
+              class="inline-flex space-x-6 background-yellow p-2 md:p-4 text-left"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
-                class="h-5 w-5 fill-current"
+                class="w-6 h-6"
               >
-                <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                 <path
-                  d="M152 64H296V24C296 10.75 306.7 0 320 0C333.3 0 344 10.75 344 24V64H384C419.3 64 448 92.65 448 128V448C448 483.3 419.3 512 384 512H64C28.65 512 0 483.3 0 448V128C0 92.65 28.65 64 64 64H104V24C104 10.75 114.7 0 128 0C141.3 0 152 10.75 152 24V64zM48 448C48 456.8 55.16 464 64 464H384C392.8 464 400 456.8 400 448V192H48V448z"
+                  d="M96 32V64H48C21.5 64 0 85.5 0 112v48H448V112c0-26.5-21.5-48-48-48H352V32c0-17.7-14.3-32-32-32s-32 14.3-32 32V64H160V32c0-17.7-14.3-32-32-32S96 14.3 96 32zM448 192H0V464c0 26.5 21.5 48 48 48H400c26.5 0 48-21.5 48-48V192z"
                 />
               </svg>
-            </td>
-            <td class="text-left">Monday - Friday</td>
-          </tr>
-        </table>
-
-        <div class="">
-          <a href="#"
-            ><button
-              class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
+              <p>Monday - Friday</p>
+            </div>
+          </div>
+          <div class="">
+            <a href="#"
+              ><button
+                @click.prevent="map = 'palangkaraya'"
+                class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
+              >
+                Direction
+              </button></a
             >
-              Direction
-            </button></a
-          >
+          </div>
         </div>
-      </div>
-      <div
-        class="p-6 bg-white border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
-      >
-        <h5
-          class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-left"
-        >
-          Genova Jakarta
-        </h5>
-        <table class="w-100 mb-3">
-          <tr style="background: rgba(255, 251, 232, 1)">
-            <td class="w-20">
+        <div class="flex flex-col border p-4 gap-6">
+          <h3 class="text-2xl tracking-tight text-gray-900 text-left">
+            Genova Riau
+          </h3>
+          <div class="flex flex-col gap-2">
+            <div
+              class="inline-flex space-x-6 background-yellow p-2 md:p-4 text-left"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 384 512"
-                class="w-5 h-5 fill-current"
+                class="w-6 h-6"
               >
-                <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                 <path
-                  d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"
+                  d="M384 192c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192z"
                 />
               </svg>
-            </td>
-            <td>Jl. Jalan 38, Cikini, Menteng, Jakarta Pusat 10340</td>
-          </tr>
-          <tr>
-            <td class="w-20">
+              <p>
+                Jl. Wisma PGRI No.29, Delima, Kec. Tampan, Kota Pekanbaru, Riau
+              </p>
+            </div>
+            <div
+              class="inline-flex space-x-6 background-yellow p-2 md:p-4 text-left"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 384 512"
-                class="h-5 w-5 fill-current"
+                class="w-6 h-6"
               >
-                <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                 <path
-                  d="M16 64C16 28.7 44.7 0 80 0H304c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H80c-35.3 0-64-28.7-64-64V64zM224 448c0-17.7-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32s32-14.3 32-32zM304 64H80V384H304V64z"
+                  d="M80 0C44.7 0 16 28.7 16 64V448c0 35.3 28.7 64 64 64H304c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H80zm80 432h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H160c-8.8 0-16-7.2-16-16s7.2-16 16-16z"
                 />
               </svg>
-            </td>
-            <td class="text-left">0855-5555-5555</td>
-          </tr>
-          <tr style="background: rgba(255, 251, 232, 1)">
-            <td class="w-20">
+              <p>
+                <a href="tel:081399021010" class="hover:text-blue-400">
+                  0813 9902 1010 (Bp Migo / Ibu jurike )
+                </a>
+              </p>
+            </div>
+            <div
+              class="inline-flex space-x-6 background-yellow p-2 md:p-4 text-left"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
-                class="h-5 w-5 fill-current"
+                class="w-6 h-6"
               >
-                <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                 <path
-                  d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
+                  d="M256 512C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256s-114.6 256-256 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"
                 />
               </svg>
-            </td>
-            <td class="text-left">Contact@genovajkt.com</td>
-          </tr>
-          <tr>
-            <td class="w-20">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"
-                class="h-5 w-5 fill-current"
-              >
-                <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                <path
-                  d="M232 120C232 106.7 242.7 96 256 96C269.3 96 280 106.7 280 120V243.2L365.3 300C376.3 307.4 379.3 322.3 371.1 333.3C364.6 344.3 349.7 347.3 338.7 339.1L242.7 275.1C236 271.5 232 264 232 255.1L232 120zM256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0zM48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48C141.1 48 48 141.1 48 256z"
-                />
-              </svg>
-            </td>
-            <td class="text-left">10:00 AM - 17:00 PM</td>
-          </tr>
-          <tr style="background: rgba(255, 251, 232, 1)">
-            <td class="w-20">
+              <p>10:00 AM - 17:00 PM</p>
+            </div>
+            <div
+              class="inline-flex space-x-6 background-yellow p-2 md:p-4 text-left"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
-                class="h-5 w-5 fill-current"
+                class="w-6 h-6"
               >
-                <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                 <path
-                  d="M152 64H296V24C296 10.75 306.7 0 320 0C333.3 0 344 10.75 344 24V64H384C419.3 64 448 92.65 448 128V448C448 483.3 419.3 512 384 512H64C28.65 512 0 483.3 0 448V128C0 92.65 28.65 64 64 64H104V24C104 10.75 114.7 0 128 0C141.3 0 152 10.75 152 24V64zM48 448C48 456.8 55.16 464 64 464H384C392.8 464 400 456.8 400 448V192H48V448z"
+                  d="M96 32V64H48C21.5 64 0 85.5 0 112v48H448V112c0-26.5-21.5-48-48-48H352V32c0-17.7-14.3-32-32-32s-32 14.3-32 32V64H160V32c0-17.7-14.3-32-32-32S96 14.3 96 32zM448 192H0V464c0 26.5 21.5 48 48 48H400c26.5 0 48-21.5 48-48V192z"
                 />
               </svg>
-            </td>
-            <td class="text-left">Monday - Friday</td>
-          </tr>
-        </table>
-
-        <div class="">
-          <a href="#"
-            ><button
-              class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
+              <p>Monday - Friday</p>
+            </div>
+          </div>
+          <div class="">
+            <a href="#"
+              ><button
+                @click.prevent="map = 'riau'"
+                class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
+              >
+                Direction
+              </button></a
             >
-              Direction
-            </button></a
-          >
+          </div>
+        </div>
+        <div class="flex flex-col border p-4 gap-6">
+          <h3 class="text-2xl tracking-tight text-gray-900 text-left">
+            Genova Bogor
+          </h3>
+          <div class="flex flex-col gap-2">
+            <div
+              class="inline-flex space-x-6 background-yellow p-2 md:p-4 text-left"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 384 512"
+                class="w-6 h-6"
+              >
+                <path
+                  d="M384 192c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192z"
+                />
+              </svg>
+              <p>
+                Jl. Raya Bojong Koneng No.157, Bojong Koneng, Kec. Babakan
+                Madang, Kabupaten Bogor, Jawa Barat
+              </p>
+            </div>
+            <div
+              class="inline-flex space-x-6 background-yellow p-2 md:p-4 text-left"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 384 512"
+                class="w-6 h-6"
+              >
+                <path
+                  d="M80 0C44.7 0 16 28.7 16 64V448c0 35.3 28.7 64 64 64H304c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H80zm80 432h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H160c-8.8 0-16-7.2-16-16s7.2-16 16-16z"
+                />
+              </svg>
+              <p>
+                <a href="tel:081380367558" class="hover:text-blue-400">
+                  0813 80367558 ( Bpk Hendra )
+                </a>
+              </p>
+            </div>
+            <div
+              class="inline-flex space-x-6 background-yellow p-2 md:p-4 text-left"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                class="w-6 h-6"
+              >
+                <path
+                  d="M256 512C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256s-114.6 256-256 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"
+                />
+              </svg>
+              <p>10:00 AM - 17:00 PM</p>
+            </div>
+            <div
+              class="inline-flex space-x-6 background-yellow p-2 md:p-4 text-left"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                class="w-6 h-6"
+              >
+                <path
+                  d="M96 32V64H48C21.5 64 0 85.5 0 112v48H448V112c0-26.5-21.5-48-48-48H352V32c0-17.7-14.3-32-32-32s-32 14.3-32 32V64H160V32c0-17.7-14.3-32-32-32S96 14.3 96 32zM448 192H0V464c0 26.5 21.5 48 48 48H400c26.5 0 48-21.5 48-48V192z"
+                />
+              </svg>
+              <p>Monday - Friday</p>
+            </div>
+          </div>
+          <div class="">
+            <a href="#"
+              ><button
+                @click.prevent="map = 'bogor'"
+                class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
+              >
+                Direction
+              </button></a
+            >
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      map: "utama",
+    };
+  },
+  methods: {},
+};
+</script>
+
+<style scoped>
+td {
+  text-align: left;
+}
+</style>

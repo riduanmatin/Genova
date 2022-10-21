@@ -96,6 +96,7 @@
             </p>
             <div class="mt-6">
               <button
+                @click="$router.push('liquid-syrup')"
                 class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
               >
                 See More
@@ -107,13 +108,13 @@
         <div
           class="flex flex-col bg-yellow-200 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
-          <a href="#">
+          <router-link to="/fruit-bland">
             <img
               src="../../assets/images/product/Syrup/syrup_banana-removebg-preview.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
-          </a>
+          </router-link>
           <div class="p-5">
             <p class="text-lg font-bold text-black truncate block capitalize">
               Powder Syrup
@@ -131,16 +132,16 @@
         <div
           class="flex flex-col bg-yellow-200 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
-          <a href="#">
+          <router-link to="/fruit-bland">
             <img
               src="../../assets/images/product/Syrup/syrup_butterscotch-removebg-preview.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
-          </a>
+          </router-link>
           <div class="p-5">
             <p class="text-lg font-bold text-black truncate block capitalize">
-              Powder Drinks
+              Fruit Bland
             </p>
             <div class="mt-6">
               <button

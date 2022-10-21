@@ -5,9 +5,9 @@
       <h1 class="text-left text-black mb-2 font-semibold">Liquid Syrup</h1>
       <hr class="h-1 rounded w-32 bg-black border-0" />
       <div
-        class="grid grid-cols-2 md:grid-cols-4 justify-items-center justify-center gap-24 mt-10 mb-5"
+        class="grid grid-cols-2 md:grid-cols-3 justify-items-center justify-center gap-24 mt-10 mb-5"
       >
-        <div class="flex flex-col h-fit">
+        <div class="flex flex-col h-fit background-yellow">
           <a href="#">
             <img
               src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
@@ -32,7 +32,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col h-fit">
+        <div class="flex flex-col h-fit background-yellow">
           <a href="#">
             <img
               src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
@@ -57,7 +57,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col h-fit">
+        <div class="flex flex-col h-fit background-yellow">
           <a href="#">
             <img
               src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
@@ -81,7 +81,7 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col h-fit">
+        <div class="flex flex-col h-fit background-yellow">
           <a href="#">
             <img
               src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
@@ -105,7 +105,7 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col h-fit">
+        <div class="flex flex-col h-fit background-yellow">
           <a href="#">
             <img
               src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
@@ -130,7 +130,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col h-fit">
+        <div class="flex flex-col h-fit background-yellow">
           <a href="#">
             <img
               src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
@@ -155,7 +155,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col h-fit">
+        <div class="flex flex-col h-fit background-yellow">
           <a href="#">
             <img
               src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
@@ -179,7 +179,7 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col h-fit">
+        <div class="flex flex-col h-fit background-yellow">
           <a href="#">
             <img
               src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
@@ -203,7 +203,7 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col h-fit">
+        <div class="flex flex-col h-fit background-yellow">
           <a href="#">
             <img
               src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
@@ -228,7 +228,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col h-fit">
+        <div class="flex flex-col h-fit background-yellow">
           <a href="#">
             <img
               src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
@@ -253,7 +253,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col h-fit">
+        <div class="flex flex-col h-fit background-yellow">
           <a href="#">
             <img
               src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
@@ -277,7 +277,7 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col h-fit">
+        <div class="flex flex-col h-fit background-yellow">
           <a href="#">
             <img
               src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
@@ -301,7 +301,7 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col h-fit">
+        <div class="flex flex-col h-fit background-yellow">
           <a href="#">
             <img
               src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
@@ -326,7 +326,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col h-fit">
+        <div class="flex flex-col h-fit background-yellow">
           <a href="#">
             <img
               src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
@@ -351,7 +351,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col h-fit">
+        <div class="flex flex-col h-fit background-yellow">
           <a href="#">
             <img
               src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
@@ -375,7 +375,7 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col h-fit">
+        <div class="flex flex-col h-fit background-yellow">
           <a href="#">
             <img
               src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
