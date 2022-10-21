@@ -39,7 +39,7 @@
   justify-content: center;
 }
 .about-section {
-  background: url(../../assets/images/about-banner.jpg) no-repeat left;
+  background: url(../../assets/images/banner/about-banner.jpg) no-repeat left;
   background-size: fill;
   background-position: center center;
   background-color: #fdfdfd;

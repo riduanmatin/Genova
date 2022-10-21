@@ -12,7 +12,7 @@
         <div class="flex flex-col h-fit">
           <a href="#">
             <img
-              src="../../assets/images/fruit_bland_kiwi.png"
+              src="../../assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
@@ -37,7 +37,7 @@
         <div class="flex flex-col h-fit">
           <a href="#">
             <img
-              src="../../assets/images/fruit_bland_passion fruit.png"
+              src="../../assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
@@ -62,7 +62,7 @@
         <div class="flex flex-col h-fit">
           <a href="#">
             <img
-              src="../../assets/images/fruit_bland_pineapple.png"
+              src="../../assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
@@ -86,7 +86,7 @@
         <div class="flex flex-col h-fit">
           <a href="#">
             <img
-              src="../../assets/images/fruit_bland_raspberry.png"
+              src="../../assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />

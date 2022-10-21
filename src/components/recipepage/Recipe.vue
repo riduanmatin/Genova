@@ -5,7 +5,7 @@
     <div class="py-6 px-4 lg:px-6 lg:py-12 xl:px-12">
       <h1 class="text-left text-black mb-2 text-lg">Standart Recipe</h1>
       <hr class="h-1 rounded w-32 bg-black border-0" />
-      <div class="flex flex-col my-6 gap-6">
+      <div class="flex flex-col my-12 gap-8">
         <div
           class="flex flex-col md:flex-row border p-4 gap-10 md:gap-24 items-center"
         >

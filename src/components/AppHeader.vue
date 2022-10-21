@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="p-4 bg-white-100">
+    <div class="p-4 background-navbar">
       <nav
         class="container px-4 py-5 mx-auto lg:flex lg:justify-between lg:items-center lg:px-6 xl:px-12"
       >
@@ -9,7 +9,7 @@
             to="/"
             class="text-xl font-bold text-gray-800 lg:text-2xl hover:text-blue-400"
             ><img
-              src="../assets/images/Genova_Logo_no_bg.png"
+              src="../assets/images/logo/Genova_Logo_no_bg.png"
               alt=""
               height="100"
               width="100"

@@ -10,7 +10,7 @@
           Genova Jakarta
         </h5>
         <table class="w-100 mb-3">
-          <tr style="background: rgba(255, 251, 232, 1);">
+          <tr style="background: rgba(255, 251, 232, 1)">
             <td class="w-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +41,7 @@
             </td>
             <td class="text-left">0855-5555-5555</td>
           </tr>
-          <tr style="background: rgba(255, 251, 232, 1);">
+          <tr style="background: rgba(255, 251, 232, 1)">
             <td class="w-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +71,7 @@
             </td>
             <td class="text-left">10:00 AM - 17:00 PM</td>
           </tr>
-          <tr style="background: rgba(255, 251, 232, 1);">
+          <tr style="background: rgba(255, 251, 232, 1)">
             <td class="w-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -107,7 +107,7 @@
           Genova Jakarta
         </h5>
         <table class="w-100 mb-3">
-          <tr style="background: rgba(255, 251, 232, 1);">
+          <tr style="background: rgba(255, 251, 232, 1)">
             <td class="w-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -137,7 +137,7 @@
             </td>
             <td class="text-left">0855-5555-5555</td>
           </tr>
-          <tr style="background: rgba(255, 251, 232, 1);">
+          <tr style="background: rgba(255, 251, 232, 1)">
             <td class="w-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -167,7 +167,7 @@
             </td>
             <td class="text-left">10:00 AM - 17:00 PM</td>
           </tr>
-          <tr style="background: rgba(255, 251, 232, 1);">
+          <tr style="background: rgba(255, 251, 232, 1)">
             <td class="w-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -205,7 +205,7 @@
           Genova Jakarta
         </h5>
         <table class="w-100 mb-3">
-          <tr style="background: rgba(255, 251, 232, 1);">
+          <tr style="background: rgba(255, 251, 232, 1)">
             <td class="w-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -235,7 +235,7 @@
             </td>
             <td class="text-left">0855-5555-5555</td>
           </tr>
-          <tr style="background: rgba(255, 251, 232, 1);">
+          <tr style="background: rgba(255, 251, 232, 1)">
             <td class="w-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -265,7 +265,7 @@
             </td>
             <td class="text-left">10:00 AM - 17:00 PM</td>
           </tr>
-          <tr style="background: rgba(255, 251, 232, 1);">
+          <tr style="background: rgba(255, 251, 232, 1)">
             <td class="w-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -301,7 +301,7 @@
           Genova Jakarta
         </h5>
         <table class="w-100 mb-3">
-          <tr style="background: rgba(255, 251, 232, 1);">
+          <tr style="background: rgba(255, 251, 232, 1)">
             <td class="w-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -331,7 +331,7 @@
             </td>
             <td class="text-left">0855-5555-5555</td>
           </tr>
-          <tr style="background: rgba(255, 251, 232, 1);">
+          <tr style="background: rgba(255, 251, 232, 1)">
             <td class="w-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -361,7 +361,7 @@
             </td>
             <td class="text-left">10:00 AM - 17:00 PM</td>
           </tr>
-          <tr style="background: rgba(255, 251, 232, 1);">
+          <tr style="background: rgba(255, 251, 232, 1)">
             <td class="w-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

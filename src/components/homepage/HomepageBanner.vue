@@ -3,7 +3,9 @@
     <div
       class="px-4 py-20 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-12"
     >
-      <div class="flex flex-col items-center justify-between gap-6 lg:flex-row">
+      <div
+        class="flex flex-col items-center justify-between gap-6 md:gap-12 lg:flex-row"
+      >
         <div class="text-center mb-10 lg:text-left lg:max-w-lg lg:pr-5 lg:mb-0">
           <div class="flex flex-col gap-3 max-w-lg mb-6">
             <h1
@@ -33,7 +35,7 @@
         <div class="relative lg:w-1/2">
           <img
             class="object-contain w-full h-56 rounded sm:h-96"
-            src="../../assets/images/homepage banner images.png"
+            src="../../assets/images/banner/homepage banner images.png"
             alt=""
           />
         </div>

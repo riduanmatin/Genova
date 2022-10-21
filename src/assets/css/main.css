@@ -1,5 +1,8 @@
-@import "./base.css";
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
   margin: 0;
@@ -23,38 +26,14 @@ h3 {
   font-weight: 400;
 }
 
+.background-yellow {
+  background: #fff6d2;
+}
+.background-navbar {
+  background-color: lightgray;
+}
+
 p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-}
-
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-}
-
-.footer-box-shadow {
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
-    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-}
-
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
 }

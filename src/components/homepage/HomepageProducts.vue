@@ -13,7 +13,7 @@
         >
           <a href="#">
             <img
-              src="../../assets/images/fruit_bland_kiwi.png"
+              src="../../assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
@@ -37,7 +37,7 @@
         >
           <a href="#">
             <img
-              src="../../assets/images/fruit_bland_passion fruit.png"
+              src="../../assets/images/product/Fruit Bland/fruit_bland_passion.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
@@ -61,7 +61,7 @@
         >
           <a href="#">
             <img
-              src="../../assets/images/fruit_bland_raspberry.png"
+              src="../../assets/images/product/Fruit Bland/fruit_bland_pineapple.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
@@ -83,13 +83,13 @@
         <div
           class="flex flex-col bg-yellow-200 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
-          <a href="#">
+          <router-link to="/liquid-syrup">
             <img
-              src="../../assets/images/fruit_bland_strawberry.png"
+              src="../../assets/images/product/Fruit Bland/fruit_bland_strawberry.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
-          </a>
+          </router-link>
           <div class="p-5">
             <p class="text-lg font-bold text-black truncate block capitalize">
               Liquid Syrup
@@ -109,7 +109,7 @@
         >
           <a href="#">
             <img
-              src="../../assets/images/syrup_vanilla-removebg-preview.png"
+              src="../../assets/images/product/Syrup/syrup_banana-removebg-preview.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
@@ -133,7 +133,7 @@
         >
           <a href="#">
             <img
-              src="../../assets/images/syrup_strawberry-removebg-preview.png"
+              src="../../assets/images/product/Syrup/syrup_butterscotch-removebg-preview.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
