@@ -21,7 +21,7 @@
         >
           Genova Indonesia
         </h5>
-        <a href=""
+        <a href="https://www.tokopedia.com/genovaindonesia"
           ><button
             class="w-full mt-5 rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
           >

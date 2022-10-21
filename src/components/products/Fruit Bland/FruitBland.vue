@@ -2,7 +2,9 @@
 <template>
   <section class="container mx-auto">
     <div class="p-8 lg:px-6 lg:py-12 xl:px-12">
-      <h1 class="text-left text-black mb-2 font-semibold">Fruit Bland</h1>
+      <h1 class="text-lg text-left text-black mb-2 font-semibold">
+        Fruit Bland
+      </h1>
       <hr class="h-1 rounded w-32 bg-black border-0" />
       <div
         class="grid grid-cols-2 md:grid-cols-3 justify-items-center justify-center gap-24 mt-12 mb-5"
@@ -21,7 +23,7 @@
             >
               Fruit Bland Kiwi
             </p>
-            <p class="text-base md:text-lg text-gray-600">RP. 100,000</p>
+            <p class="text-base md:text-lg text-gray-600">RP. 109,000</p>
             <div class="">
               <button
                 class="rounded-lg px-4 py-1.5 bg-yellow-400 hover:bg-yellow-600 duration-300"
@@ -45,7 +47,7 @@
             >
               Fruit Bland Passion
             </p>
-            <p class="text-base md:text-lg text-gray-600">RP. 100,000</p>
+            <p class="text-base md:text-lg text-gray-600">RP. 109,000</p>
             <div class="">
               <button
                 class="rounded-lg px-4 py-1.5 bg-yellow-400 hover:bg-yellow-600 duration-300"
@@ -69,7 +71,7 @@
             >
               Fruit Bland Pineapple
             </p>
-            <p class="text-base md:text-lg text-gray-600">RP. 100,000</p>
+            <p class="text-base md:text-lg text-gray-600">RP. 109,000</p>
             <div class="">
               <button
                 class="rounded-lg px-4 py-1.5 bg-yellow-400 hover:bg-yellow-600 duration-300"
@@ -93,7 +95,7 @@
             >
               Fruit Bland Kiwi
             </p>
-            <p class="text-base md:text-lg text-gray-600">RP. 100,000</p>
+            <p class="text-base md:text-lg text-gray-600">RP. 109,000</p>
             <div class="">
               <button
                 class="rounded-lg px-4 py-1.5 bg-yellow-400 hover:bg-yellow-600 duration-300"
@@ -117,7 +119,7 @@
             >
               Fruit Bland Raspberry
             </p>
-            <p class="text-base md:text-lg text-gray-600">RP. 100,000</p>
+            <p class="text-base md:text-lg text-gray-600">RP. 109,000</p>
             <div class="">
               <button
                 class="rounded-lg px-4 py-1.5 bg-yellow-400 hover:bg-yellow-600 duration-300"
@@ -141,7 +143,7 @@
             >
               Fruit Bland Strawberry
             </p>
-            <p class="text-base md:text-lg text-gray-600">RP. 100,000</p>
+            <p class="text-base md:text-lg text-gray-600">RP. 109,000</p>
             <div class="">
               <button
                 class="rounded-lg px-4 py-1.5 bg-yellow-400 hover:bg-yellow-600 duration-300"

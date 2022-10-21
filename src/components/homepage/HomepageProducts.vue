@@ -145,6 +145,7 @@
             </p>
             <div class="mt-6">
               <button
+                @click="$router.push('fruit-bland')"
                 class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
               >
                 See More

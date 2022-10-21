@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="p-4 background-navbar">
+    <div class="p-4">
       <nav
         class="container px-4 py-5 mx-auto lg:flex lg:justify-between lg:items-center lg:px-6 xl:px-12"
       >

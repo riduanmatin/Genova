@@ -12,7 +12,81 @@
         <div class="flex flex-col h-fit">
           <a href="#">
             <img
-              src="../../assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
+              src="../../assets/images/product/Syrup/syrup_lychee-removebg-preview.png"
+              alt="Product"
+              class="h-64 w-60 object-contain rounded-t-xl"
+            />
+          </a>
+          <div class="flex flex-col gap-3 p-5">
+            <p
+              class="text-lg font-semibold text-black truncate block capitalize"
+            >
+              Lychee Syrup
+            </p>
+            <p class="text-lg text-gray-600">RP. 97,000</p>
+            <div class="">
+              <button
+                class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
+              >
+                See More
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col h-fit">
+          <a href="#">
+            <img
+              src="../../assets/images/product/Syrup/syrup_pandan-removebg-preview.png"
+              alt="Product"
+              class="h-64 w-60 object-contain rounded-t-xl"
+            />
+          </a>
+          <div class="flex flex-col gap-3 p-5">
+            <p
+              class="text-lg font-semibold text-black truncate block capitalize"
+            >
+              Pandan Syrup
+            </p>
+            <p class="text-lg text-gray-600">RP. 97,000</p>
+            <div class="">
+              <button
+                class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
+              >
+                See More
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col h-fit">
+          <a href="#">
+            <img
+              src="../../assets/images/product/Fruit Bland/fruit_bland_strawberry.png"
+              alt="Product"
+              class="h-64 w-60 object-contain rounded-t-xl"
+            />
+          </a>
+          <div class="flex flex-col gap-3 p-5">
+            <p
+              class="text-lg font-semibold text-black truncate block capitalize"
+            >
+              Fruit Bland Strawberry
+            </p>
+            <p class="text-lg text-gray-600">RP. 109,000</p>
+            <div class="">
+              <button
+                class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
+              >
+                See More
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col h-fit">
+          <a href="#">
+            <img
+              src="../../assets/images/product/Fruit Bland/fruit_bland_mango.png"
               alt="Product"
               class="h-64 w-60 object-contain rounded-t-xl"
             />
@@ -23,81 +97,7 @@
             >
               Fruit Bland Manggo
             </p>
-            <p class="text-lg text-gray-600">RP. 100,000</p>
-            <div class="">
-              <button
-                class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
-              >
-                See More
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="flex flex-col h-fit">
-          <a href="#">
-            <img
-              src="../../assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
-              alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
-            />
-          </a>
-          <div class="flex flex-col gap-3 p-5">
-            <p
-              class="text-lg font-semibold text-black truncate block capitalize"
-            >
-              Syrup Tiramisu
-            </p>
-            <p class="text-lg text-gray-600">RP. 100,000</p>
-            <div class="">
-              <button
-                class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
-              >
-                See More
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="flex flex-col h-fit">
-          <a href="#">
-            <img
-              src="../../assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
-              alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
-            />
-          </a>
-          <div class="flex flex-col gap-3 p-5">
-            <p
-              class="text-lg font-semibold text-black truncate block capitalize"
-            >
-              Syrup Vanilla
-            </p>
-            <p class="text-lg text-gray-600">RP. 100,000</p>
-            <div class="">
-              <button
-                class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
-              >
-                See More
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="flex flex-col h-fit">
-          <a href="#">
-            <img
-              src="../../assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
-              alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
-            />
-          </a>
-          <div class="flex flex-col gap-3 p-5">
-            <p
-              class="text-lg font-semibold text-black truncate block capitalize"
-            >
-              Syrup Pandan
-            </p>
-            <p class="text-lg text-gray-600">RP. 100,000</p>
+            <p class="text-lg text-gray-600">RP. 109,000</p>
             <div class="">
               <button
                 class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
