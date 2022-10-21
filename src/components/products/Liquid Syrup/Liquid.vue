@@ -7,395 +7,31 @@
       <div
         class="grid grid-cols-2 md:grid-cols-3 justify-items-center justify-center gap-24 mt-10 mb-5"
       >
-        <div class="flex flex-col h-fit background-yellow">
-          <a href="#">
-            <img
-              src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
-              alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
-            />
-          </a>
-          <div class="flex flex-col gap-3 p-5">
-            <p
-              class="text-base md:text-lg font-semibold text-black truncate block capitalize"
-            >
-              Fruit Bland Manggo
-            </p>
-            <p class="text-base md:text-lg text-gray-600">RP. 100,000</p>
-            <div class="">
-              <button
-                class="rounded-lg px-4 py-1.5 bg-yellow-400 hover:bg-yellow-600 duration-300"
+        <div class="" v-for="product in products" :key="product.id">
+          <div class="flex flex-col h-fit background-yellow">
+            <a href="#">
+              <img
+                :src="product.image.url"
+                :alt="product.image.alt"
+                class="h-64 w-60 object-contain rounded-t-xl"
+              />
+            </a>
+            <div class="flex flex-col gap-3 p-5">
+              <p
+                class="text-base md:text-lg font-semibold text-black truncate block capitalize"
               >
-                Buy
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="flex flex-col h-fit background-yellow">
-          <a href="#">
-            <img
-              src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
-              alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
-            />
-          </a>
-          <div class="flex flex-col gap-3 p-5">
-            <p
-              class="text-base md:text-lg font-semibold text-black truncate block capitalize"
-            >
-              Syrup Tiramisu
-            </p>
-            <p class="text-base md:text-lg text-gray-600">RP. 100,000</p>
-            <div class="">
-              <button
-                class="rounded-lg px-4 py-1.5 bg-yellow-400 hover:bg-yellow-600 duration-300"
-              >
-                Buy
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="flex flex-col h-fit background-yellow">
-          <a href="#">
-            <img
-              src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
-              alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
-            />
-          </a>
-          <div class="flex flex-col gap-3 p-5">
-            <p
-              class="text-base md:text-lg font-semibold text-black truncate block capitalize"
-            >
-              Syrup Vanilla
-            </p>
-            <p class="text-base md:text-lg text-gray-600">RP. 100,000</p>
-            <div class="">
-              <button
-                class="rounded-lg px-4 py-1.5 bg-yellow-400 hover:bg-yellow-600 duration-300"
-              >
-                Buy
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="flex flex-col h-fit background-yellow">
-          <a href="#">
-            <img
-              src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
-              alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
-            />
-          </a>
-          <div class="flex flex-col gap-3 p-5">
-            <p
-              class="text-base md:text-lg font-semibold text-black truncate block capitalize"
-            >
-              Syrup Pandan
-            </p>
-            <p class="text-base md:text-lg text-gray-600">RP. 100,000</p>
-            <div class="">
-              <button
-                class="rounded-lg px-4 py-1.5 bg-yellow-400 hover:bg-yellow-600 duration-300"
-              >
-                Buy
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="flex flex-col h-fit background-yellow">
-          <a href="#">
-            <img
-              src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
-              alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
-            />
-          </a>
-          <div class="flex flex-col gap-3 p-5">
-            <p
-              class="text-base md:text-lg font-semibold text-black truncate block capitalize"
-            >
-              Fruit Bland Manggo
-            </p>
-            <p class="text-base md:text-lg text-gray-600">RP. 100,000</p>
-            <div class="">
-              <button
-                class="rounded-lg px-4 py-1.5 bg-yellow-400 hover:bg-yellow-600 duration-300"
-              >
-                Buy
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="flex flex-col h-fit background-yellow">
-          <a href="#">
-            <img
-              src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
-              alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
-            />
-          </a>
-          <div class="flex flex-col gap-3 p-5">
-            <p
-              class="text-base md:text-lg font-semibold text-black truncate block capitalize"
-            >
-              Syrup Tiramisu
-            </p>
-            <p class="text-base md:text-lg text-gray-600">RP. 100,000</p>
-            <div class="">
-              <button
-                class="rounded-lg px-4 py-1.5 bg-yellow-400 hover:bg-yellow-600 duration-300"
-              >
-                Buy
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="flex flex-col h-fit background-yellow">
-          <a href="#">
-            <img
-              src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
-              alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
-            />
-          </a>
-          <div class="flex flex-col gap-3 p-5">
-            <p
-              class="text-base md:text-lg font-semibold text-black truncate block capitalize"
-            >
-              Syrup Vanilla
-            </p>
-            <p class="text-base md:text-lg text-gray-600">RP. 100,000</p>
-            <div class="">
-              <button
-                class="rounded-lg px-4 py-1.5 bg-yellow-400 hover:bg-yellow-600 duration-300"
-              >
-                Buy
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="flex flex-col h-fit background-yellow">
-          <a href="#">
-            <img
-              src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
-              alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
-            />
-          </a>
-          <div class="flex flex-col gap-3 p-5">
-            <p
-              class="text-base md:text-lg font-semibold text-black truncate block capitalize"
-            >
-              Syrup Pandan
-            </p>
-            <p class="text-base md:text-lg text-gray-600">RP. 100,000</p>
-            <div class="">
-              <button
-                class="rounded-lg px-4 py-1.5 bg-yellow-400 hover:bg-yellow-600 duration-300"
-              >
-                Buy
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="flex flex-col h-fit background-yellow">
-          <a href="#">
-            <img
-              src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
-              alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
-            />
-          </a>
-          <div class="flex flex-col gap-3 p-5">
-            <p
-              class="text-base md:text-lg font-semibold text-black truncate block capitalize"
-            >
-              Fruit Bland Manggo
-            </p>
-            <p class="text-base md:text-lg text-gray-600">RP. 100,000</p>
-            <div class="">
-              <button
-                class="rounded-lg px-4 py-1.5 bg-yellow-400 hover:bg-yellow-600 duration-300"
-              >
-                Buy
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="flex flex-col h-fit background-yellow">
-          <a href="#">
-            <img
-              src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
-              alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
-            />
-          </a>
-          <div class="flex flex-col gap-3 p-5">
-            <p
-              class="text-base md:text-lg font-semibold text-black truncate block capitalize"
-            >
-              Syrup Tiramisu
-            </p>
-            <p class="text-base md:text-lg text-gray-600">RP. 100,000</p>
-            <div class="">
-              <button
-                class="rounded-lg px-4 py-1.5 bg-yellow-400 hover:bg-yellow-600 duration-300"
-              >
-                Buy
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="flex flex-col h-fit background-yellow">
-          <a href="#">
-            <img
-              src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
-              alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
-            />
-          </a>
-          <div class="flex flex-col gap-3 p-5">
-            <p
-              class="text-base md:text-lg font-semibold text-black truncate block capitalize"
-            >
-              Syrup Vanilla
-            </p>
-            <p class="text-base md:text-lg text-gray-600">RP. 100,000</p>
-            <div class="">
-              <button
-                class="rounded-lg px-4 py-1.5 bg-yellow-400 hover:bg-yellow-600 duration-300"
-              >
-                Buy
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="flex flex-col h-fit background-yellow">
-          <a href="#">
-            <img
-              src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
-              alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
-            />
-          </a>
-          <div class="flex flex-col gap-3 p-5">
-            <p
-              class="text-base md:text-lg font-semibold text-black truncate block capitalize"
-            >
-              Syrup Pandan
-            </p>
-            <p class="text-base md:text-lg text-gray-600">RP. 100,000</p>
-            <div class="">
-              <button
-                class="rounded-lg px-4 py-1.5 bg-yellow-400 hover:bg-yellow-600 duration-300"
-              >
-                Buy
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="flex flex-col h-fit background-yellow">
-          <a href="#">
-            <img
-              src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
-              alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
-            />
-          </a>
-          <div class="flex flex-col gap-3 p-5">
-            <p
-              class="text-base md:text-lg font-semibold text-black truncate block capitalize"
-            >
-              Fruit Bland Manggo
-            </p>
-            <p class="text-base md:text-lg text-gray-600">RP. 100,000</p>
-            <div class="">
-              <button
-                class="rounded-lg px-4 py-1.5 bg-yellow-400 hover:bg-yellow-600 duration-300"
-              >
-                Buy
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="flex flex-col h-fit background-yellow">
-          <a href="#">
-            <img
-              src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
-              alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
-            />
-          </a>
-          <div class="flex flex-col gap-3 p-5">
-            <p
-              class="text-base md:text-lg font-semibold text-black truncate block capitalize"
-            >
-              Syrup Tiramisu
-            </p>
-            <p class="text-base md:text-lg text-gray-600">RP. 100,000</p>
-            <div class="">
-              <button
-                class="rounded-lg px-4 py-1.5 bg-yellow-400 hover:bg-yellow-600 duration-300"
-              >
-                Buy
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="flex flex-col h-fit background-yellow">
-          <a href="#">
-            <img
-              src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
-              alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
-            />
-          </a>
-          <div class="flex flex-col gap-3 p-5">
-            <p
-              class="text-base md:text-lg font-semibold text-black truncate block capitalize"
-            >
-              Syrup Vanilla
-            </p>
-            <p class="text-base md:text-lg text-gray-600">RP. 100,000</p>
-            <div class="">
-              <button
-                class="rounded-lg px-4 py-1.5 bg-yellow-400 hover:bg-yellow-600 duration-300"
-              >
-                Buy
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="flex flex-col h-fit background-yellow">
-          <a href="#">
-            <img
-              src="@/assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
-              alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
-            />
-          </a>
-          <div class="flex flex-col gap-3 p-5">
-            <p
-              class="text-base md:text-lg font-semibold text-black truncate block capitalize"
-            >
-              Syrup Pandan
-            </p>
-            <p class="text-base md:text-lg text-gray-600">RP. 100,000</p>
-            <div class="">
-              <button
-                class="rounded-lg px-4 py-1.5 bg-yellow-400 hover:bg-yellow-600 duration-300"
-              >
-                Buy
-              </button>
+                {{ product.name }}
+              </p>
+              <p class="text-base md:text-lg text-gray-600">
+                RP. {{ product.price }}
+              </p>
+              <div class="">
+                <button
+                  class="rounded-lg px-4 py-1.5 bg-yellow-400 hover:bg-yellow-600 duration-300"
+                >
+                  Buy
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -407,128 +43,38 @@
 export default {
   data() {
     return {
-      cards: [1, 2, 3, 4, 5, 6, 7, 8],
-      //   products: [
-      //     {
-      //       productTitle: "ABCN",
-      //       image: [
-      //         require("../../assets/images/fruit bland mango.png"),
-      //         require("../../assets/images/fruit bland mango.png"),
-      //       ],
-      //       productId: 1,
-      //     },
-      //     {
-      //       productTitle: "KARMA",
-      //       image: [require("../../assets/images/fruit bland mango.png")],
-      //       productId: 2,
-      //     },
-      //     {
-      //       productTitle: "Tino",
-      //       image: [require("../../assets/images/fruit bland mango.png")],
-      //       productId: 3,
-      //     },
-      //     {
-      //       productTitle: "EFG",
-      //       image: [require("../../assets/images/fruit bland mango.png")],
-      //       productId: 4,
-      //     },
-      //   ],
-      innerStyles: {},
-      step: "",
-      transitioning: false,
+      products: [
+        {
+          id: 1,
+          name: "Fruit Bland Manggo",
+          image: {
+            url: "../../../../assets/images/product/Syrup/syrup banana.png",
+            alt: "I love you nature",
+          },
+          price: "97,000",
+        },
+        {
+          id: 2,
+          name: "Fruit Bland Manggo",
+          image: {
+            url: "../../../../assets/images/product/Syrup/syrup banana.png",
+            alt: "I love you nature",
+          },
+          price: "97,000",
+        },
+        {
+          id: 3,
+          name: "Fruit Bland Manggo",
+          image: {
+            url: "../../../../assets/images/product/Syrup/syrup banana.png",
+            alt: "I love you nature",
+          },
+          price: "97,000",
+        },
+      ],
     };
   },
-  //   mounted() {
-  //     this.setStep();
-  //     this.resetTranslate();
-  //   },
-
-  //   methods: {
-  //     setStep() {
-  //       const innerWidth = this.$refs.inner.scrollWidth;
-  //       const totalCards = this.cards.length;
-  //       this.step = `${innerWidth / totalCards}px`;
-  //     },
-
-  //     next() {
-  //       if (this.transitioning) return;
-
-  //       this.transitioning = true;
-
-  //       this.moveLeft();
-
-  //       this.afterTransition(() => {
-  //         const card = this.cards.shift();
-  //         this.cards.push(card);
-  //         this.resetTranslate();
-  //         this.transitioning = false;
-  //       });
-  //     },
-
-  //     prev() {
-  //       if (this.transitioning) return;
-
-  //       this.transitioning = true;
-
-  //       this.moveRight();
-
-  //       this.afterTransition(() => {
-  //         const card = this.cards.pop();
-  //         this.cards.unshift(card);
-  //         this.resetTranslate();
-  //         this.transitioning = false;
-  //       });
-  //     },
-
-  //     moveLeft() {
-  //       this.innerStyles = {
-  //         transform: `translateX(-${this.step})
-  //                     translateX(-${this.step})`,
-  //       };
-  //     },
-
-  //     moveRight() {
-  //       this.innerStyles = {
-  //         transform: `translateX(${this.step})
-  //                     translateX(-${this.step})`,
-  //       };
-  //     },
-
-  //     afterTransition(callback) {
-  //       const listener = () => {
-  //         callback();
-  //         this.$refs.inner.removeEventListener("transitionend", listener);
-  //       };
-  //       this.$refs.inner.addEventListener("transitionend", listener);
-  //     },
-
-  //     resetTranslate() {
-  //       this.innerStyles = {
-  //         transition: "none",
-  //         transform: `translateX(-${this.step})`,
-  //       };
-  //     },
-  //   },
 };
 </script>
 
-<style scoped>
-.carousel {
-  width: 170px;
-  overflow: hidden;
-}
-
-.inner {
-  transition: transform 0.2s;
-  white-space: nowrap;
-}
-
-/* optional */
-button {
-  margin-right: 5px;
-  margin-top: 10px;
-}
-.background {
-  background: #fffbe8;
-}
-</style>
+<style scoped></style>
