@@ -43,6 +43,11 @@ const router = createRouter({
       name: "fruit-bland",
       component: () => import("../views/FruitBlandProduct.vue"),
     },
+    {
+      path: "/powder-syrup",
+      name: "powder-syrup",
+      component: () => import("../views/PowderSyrupProduct.vue"),
+    },
   ],
 });
 

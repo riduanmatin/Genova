@@ -10,7 +10,7 @@
             class="text-xl font-bold text-gray-800 lg:text-2xl hover:text-blue-400"
             ><img
               src="../assets/images/logo/Genova_Logo_no_bg.png"
-              alt=""
+              alt="Logo Genova"
               height="100"
               width="100"
             />
@@ -32,7 +32,7 @@
         </div>
 
         <div class="flex justify-center lg:order-2">
-          <div :class="showMenu ? 'flex' : 'hidden'" class="relative lg:block">
+          <div :class="showMenu ? 'block' : 'hidden'" class="relative lg:block">
             <div
               class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none"
             >
@@ -62,23 +62,33 @@
 
         <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
         <ul
-          :class="showMenu ? 'flex' : 'hidden'"
+          :class="showMenu ? 'block' : 'hidden'"
           class="flex-col mt-8 space-y-4 lg:flex lg:space-y-0 lg:flex-row lg:items-center lg:space-x-10 lg:mt-0 lg:order-1"
         >
           <li class="text-base font-semibold text-gray-800 hover:text-blue-400">
-            <router-link to="/products">Product</router-link>
+            <router-link @click="dropdownClose" to="/products"
+              >Product</router-link
+            >
           </li>
           <li class="text-base font-semibold text-gray-800 hover:text-blue-400">
-            <router-link to="/recipe">Recipe</router-link>
+            <router-link @click="dropdownClose" to="/recipe"
+              >Recipe</router-link
+            >
           </li>
           <li class="text-base font-semibold text-gray-800 hover:text-blue-400">
-            <router-link to="/about">About Us</router-link>
+            <router-link @click="dropdownClose" to="/about"
+              >About Us</router-link
+            >
           </li>
           <li class="text-base font-semibold text-gray-800 hover:text-blue-400">
-            <router-link to="/contact">Contact</router-link>
+            <router-link @click="dropdownClose" to="/contact"
+              >Contact</router-link
+            >
           </li>
           <li class="text-base font-semibold text-gray-800 hover:text-blue-400">
-            <router-link to="/location">Location</router-link>
+            <router-link @click="dropdownClose" to="/location"
+              >Location</router-link
+            >
           </li>
         </ul>
       </nav>
@@ -90,9 +100,16 @@ export default {
   data() {
     return {
       showMenu: false,
+      dropdown: false,
+      isOpen: false,
+      theme: "",
+      modal: false,
     };
   },
   toggleNav: function () {
+    this.showMenu = !this.showMenu;
+  },
+  dropdownClose() {
     this.showMenu = !this.showMenu;
   },
 };

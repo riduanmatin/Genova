@@ -2,7 +2,7 @@
 <template>
   <section class="container mx-auto">
     <div class="p-8 lg:px-6 lg:py-12 xl:px-12">
-      <h1 class="text-left text-black mb-2 font-semibold">Liquid Syrup</h1>
+      <h1 class="text-left text-black mb-2 font-semibold">Powder Syrup</h1>
       <hr class="h-1 rounded w-32 bg-black border-0" />
       <div
         class="grid grid-cols-1 md:grid-cols-3 justify-items-center justify-center gap-24 mt-10 mb-5"

@@ -12,9 +12,9 @@
         <div class="flex flex-col h-fit bg-white">
           <a href="#">
             <img
-              src="../../assets/images/product/Syrup/syrup_peppermint-removebg-preview.png"
+              src="../../assets/images/product/Syrup/syrup pineapple.png"
               alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
+              class="h-60 w-56 object-contain rounded-t-xl"
             />
           </a>
           <div class="flex flex-col gap-3 p-5">
@@ -35,9 +35,9 @@
         <div class="flex flex-col h-fit bg-white">
           <a href="#">
             <img
-              src="../../assets/images/product/Syrup/syrup_tiramisu-removebg-preview.png"
+              src="../../assets/images/product/Syrup/syrup raspberry.png"
               alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
+              class="h-60 w-56 object-contain rounded-t-xl"
             />
           </a>
           <div class="flex flex-col gap-3 p-5">
@@ -60,7 +60,7 @@
             <img
               src="../../assets/images/product/Syrup/syrup_tiramisu-removebg-preview.png"
               alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
+              class="h-60 w-56 object-contain rounded-t-xl"
             />
           </a>
           <div class="flex flex-col gap-3 p-5">
@@ -80,9 +80,9 @@
         <div class="flex flex-col h-fit bg-white">
           <a href="#">
             <img
-              src="../../assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
+              src="../../assets/images/product/syrup/syrup_coconut-removebg-preview.png"
               alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
+              class="h-60 w-56 object-contain rounded-t-xl"
             />
           </a>
           <div class="flex flex-col gap-3 p-5">

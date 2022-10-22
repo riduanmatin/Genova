@@ -15,7 +15,7 @@
             <img
               src="../../assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
               alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
+              class="h-60 w-56 object-contain rounded-t-xl"
             />
           </router-link>
           <div class="p-5">
@@ -32,7 +32,7 @@
             <img
               src="../../assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
               alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
+              class="h-60 w-56 object-contain rounded-t-xl"
             />
           </router-link>
           <div class="p-5">
@@ -49,7 +49,7 @@
             <img
               src="../../assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
               alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
+              class="h-60 w-56 object-contain rounded-t-xl"
             />
           </router-link>
           <div class="p-5">
@@ -66,7 +66,7 @@
             <img
               src="../../assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
               alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
+              class="h-60 w-56 object-contain rounded-t-xl"
             />
           </router-link>
           <div class="p-5">
@@ -80,9 +80,9 @@
         >
           <router-link to="/liquid-syrup">
             <img
-              src="../../assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
+              src="../../assets/images/product/fruit-bland/fruit_bland_kiwi.png"
               alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
+              class="h-60 w-56 object-contain rounded-t-xl"
             />
           </router-link>
           <div class="p-5">
@@ -94,16 +94,16 @@
         <div
           class="flex flex-col bg-yellow-200 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
-          <router-link to="/liquid-syrup">
+          <router-link to="/powder-syrup">
             <img
-              src="../../assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
+              src="../../assets/images/product/syrup/syrup_banana-removebg-preview.png"
               alt="Product"
-              class="h-64 w-60 object-contain rounded-t-xl"
+              class="h-60 w-56 object-contain rounded-t-xl"
             />
           </router-link>
           <div class="p-5">
             <p class="text-lg font-bold text-black truncate block capitalize">
-              Liquid Syrup
+              Powder Syrup
             </p>
           </div>
         </div>
