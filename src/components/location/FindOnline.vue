@@ -16,16 +16,20 @@
             alt=""
           />
         </div>
-        <h5
-          class="mb-10 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center divide-y"
+        <!-- <h5
+          class="mb-10 text-2xl font-bold tracking-tight text-gray-900 text-center divide-y"
         >
           Genova Indonesia
-        </h5>
+        </h5> -->
         <a href="https://www.tokopedia.com/genovaindonesia"
           ><button
             class="w-full mt-5 rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
           >
-            Click Here
+            <h5
+              class="text-2xl font-bold tracking-tight text-gray-900 text-center divide-y"
+            >
+              Genova Indonesia
+            </h5>
           </button></a
         >
       </div>

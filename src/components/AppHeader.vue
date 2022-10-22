@@ -66,24 +66,16 @@
           class="flex-col mt-8 space-y-4 lg:flex lg:space-y-0 lg:flex-row lg:items-center lg:space-x-10 lg:mt-0 lg:order-1"
         >
           <li class="text-base font-semibold text-gray-800 hover:text-blue-400">
-            <router-link @click="dropdownClose" to="/products"
-              >Product</router-link
-            >
+            <router-link to="/products">Product</router-link>
           </li>
           <li class="text-base font-semibold text-gray-800 hover:text-blue-400">
-            <router-link @click="dropdownClose" to="/recipe"
-              >Recipe</router-link
-            >
+            <router-link to="/recipe">Recipe</router-link>
           </li>
           <li class="text-base font-semibold text-gray-800 hover:text-blue-400">
-            <router-link @click="dropdownClose" to="/about"
-              >About Us</router-link
-            >
+            <router-link to="/about">About Us</router-link>
           </li>
           <li class="text-base font-semibold text-gray-800 hover:text-blue-400">
-            <router-link @click="dropdownClose" to="/contact"
-              >Contact</router-link
-            >
+            <router-link to="/contact">Contact</router-link>
           </li>
           <li class="text-base font-semibold text-gray-800 hover:text-blue-400">
             <router-link @click="dropdownClose" to="/location"
@@ -100,17 +92,17 @@ export default {
   data() {
     return {
       showMenu: false,
-      dropdown: false,
-      isOpen: false,
-      theme: "",
-      modal: false,
+      // dropdown: false,
+      // isOpen: false,
+      // theme: "",
+      // modal: false,
     };
   },
   toggleNav: function () {
     this.showMenu = !this.showMenu;
   },
-  dropdownClose() {
-    this.showMenu = !this.showMenu;
-  },
+  // dropdownClose() {
+  //   this.showMenu = !this.showMenu;
+  // },
 };
 </script>
