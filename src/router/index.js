@@ -48,6 +48,11 @@ const router = createRouter({
       name: "powder-syrup",
       component: () => import("../views/PowderSyrupProduct.vue"),
     },
+    {
+      path: "/detail-product",
+      name: "detail-product",
+      component: () => import("../views/ProductDetailPage.vue"),
+    },
   ],
 });
 

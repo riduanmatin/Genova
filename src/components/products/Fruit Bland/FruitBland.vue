@@ -2,17 +2,21 @@
 <template>
   <section class="container mx-auto">
     <div class="p-8 lg:px-6 lg:py-12 xl:px-12">
-      <h1 class="text-left text-black mb-2 font-semibold">Fruit Bland</h1>
+      <h1 class="text-lg text-left text-black mb-2 font-semibold md:text-xl">
+        Fruit Bland
+      </h1>
       <hr class="h-1 rounded w-32 bg-black border-0" />
       <div
         class="grid grid-cols-1 md:grid-cols-3 justify-items-center justify-center gap-24 mt-10 mb-5"
       >
         <div class="" v-for="product in products" :key="product.id">
-          <div class="flex flex-col h-fit background-yellow">
+          <div
+            class="flex flex-col h-fit background-yellow rounded-lg md:p-2 md:rounded-xl"
+          >
             <a href="#">
               <img
-                :src="product.image.url"
-                :alt="product.image.alt"
+                :src="product.image"
+                :alt="product.name"
                 class="h-60 w-56 object-contain rounded-t-xl"
               />
             </a>
@@ -46,34 +50,44 @@ export default {
       products: [
         {
           id: 1,
-          name: "Fruit Bland Manggo",
-          image: {
-            url: "  /assets/images/product/Syrup/syrup banana.png",
-            alt: "I love you nature",
-          },
-          price: "97,000",
+          name: "Fruit Bland Kiwi",
+          image: "fruit_bland_kiwi.png",
+          price: "109,000",
         },
         {
           id: 2,
           name: "Fruit Bland Manggo",
-          image: {
-            url: "../../../../assets/images/product/Syrup/syrup banana.png",
-            alt: "I love you nature",
-          },
-          price: "97,000",
+          image: "fruit_bland_mango.png",
+          price: "109,000",
         },
         {
           id: 3,
-          name: "Fruit Bland Manggo",
-          image: {
-            url: "../../../../assets/images/product/Syrup/syrup banana.png",
-            alt: "I love you nature",
-          },
-          price: "97,000",
+          name: "Fruit Bland Passion Fruit",
+          image: "fruit_bland_passion.png",
+          price: "109,000",
+        },
+        {
+          id: 4,
+          name: "Fruit Bland Pineapple",
+          image: "fruit_bland_pineapple.png",
+          price: "109,000",
+        },
+        {
+          id: 5,
+          name: "Fruit Bland Raspberry",
+          image: "fruit_bland_raspberry.png",
+          price: "109,000",
+        },
+        {
+          id: 6,
+          name: "Fruit Bland Strawberry",
+          image: "fruit_bland_strawberry.png",
+          price: "109,000",
         },
       ],
     };
   },
+  methods: {},
 };
 </script>
 

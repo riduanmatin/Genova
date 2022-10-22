@@ -1,9 +1,11 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <section class="container mx-auto background-yellow">
+  <section class="container mx-auto background-yellow mb-4">
     <div class="banner"></div>
     <div class="py-6 px-4 lg:px-6 lg:py-12 xl:px-12">
-      <h1 class="text-left text-black mb-2 text-lg">Standart Recipe</h1>
+      <h1 class="text-left text-black mb-2 text-lg md:text-2xl">
+        Standart Recipe
+      </h1>
       <hr class="h-1 rounded w-32 bg-black border-0" />
       <div class="flex flex-col my-12 gap-8">
         <div

@@ -55,3 +55,11 @@ p {
 .center {
   text-align: -webkit-center;
 }
+
+.height-banner {
+  height: 60vh;
+}
+
+.checked {
+  color: orange;
+}

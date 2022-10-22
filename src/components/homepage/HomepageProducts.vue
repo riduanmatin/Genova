@@ -9,7 +9,7 @@
         class="grid grid-cols-2 md:grid-cols-3 justify-items-center justify-center gap-6 mt-10 mb-5"
       >
         <div
-          class="flex flex-col bg-yellow-200 p-3 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
+          class="flex flex-col bg-yellow-200 p-5 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
           <router-link to="/liquid-syrup" class="p-2">
             <img
@@ -19,31 +19,35 @@
             />
           </router-link>
           <div class="p-5">
-            <p class="text-lg font-bold text-black truncate block capitalize">
+            <p
+              class="text-lg lg:text-xl font-semibold text-black truncate block capitalize"
+            >
               Trending Flavor
             </p>
           </div>
         </div>
 
         <div
-          class="flex flex-col bg-yellow-200 p-3 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
+          class="flex flex-col bg-yellow-200 p-5 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
           <router-link to="/powder-syrup" class="p-2">
             <img
-              src="../../assets/images/product/powder/powder charcoal.png"
+              src="../../assets/images/product/powder/powder-charcoal.png"
               alt="Product"
               class="h-60 w-56 object-contain rounded-t-xl"
             />
           </router-link>
           <div class="p-5">
-            <p class="text-lg font-bold text-black truncate block capitalize">
+            <p
+              class="text-lg lg:text-xl font-semibold text-black truncate block capitalize"
+            >
               New Flavor
             </p>
           </div>
         </div>
 
         <div
-          class="flex flex-col bg-yellow-200 p-3 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
+          class="flex flex-col bg-yellow-200 p-5 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
           <router-link to="/fruit-bland" class="p-2">
             <img
@@ -53,14 +57,16 @@
             />
           </router-link>
           <div class="p-5">
-            <p class="text-lg font-bold text-black truncate block capitalize">
+            <p
+              class="text-lg lg:text-xl font-semibold text-black truncate block capitalize"
+            >
               Beverage Boost
             </p>
           </div>
         </div>
 
         <div
-          class="flex flex-col bg-yellow-200 p-3 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
+          class="flex flex-col bg-yellow-200 p-5 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
           <router-link to="/liquid-syrup" class="p-2">
             <img
@@ -70,31 +76,35 @@
             />
           </router-link>
           <div class="p-5">
-            <p class="text-lg font-bold text-black truncate block capitalize">
+            <p
+              class="text-lg lg:text-xl font-semibold text-black truncate block capitalize"
+            >
               Liquid Syrup
             </p>
           </div>
         </div>
 
         <div
-          class="flex flex-col bg-yellow-200 p-3 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
+          class="flex flex-col bg-yellow-200 p-5 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
           <router-link to="/powder-syrup" class="p-2">
             <img
-              src="../../assets/images/product/powder/powder charcoal.png"
+              src="../../assets/images/product/powder/powder-charcoal.png"
               alt="Product"
               class="h-60 w-56 object-contain rounded-t-xl"
             />
           </router-link>
           <div class="p-5">
-            <p class="text-lg font-bold text-black truncate block capitalize">
+            <p
+              class="text-lg lg:text-xl font-semibold text-black truncate block capitalize"
+            >
               Powder Syrup
             </p>
           </div>
         </div>
 
         <div
-          class="flex flex-col bg-yellow-200 p-3 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
+          class="flex flex-col bg-yellow-200 p-5 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
           <router-link to="/fruit-bland" class="p-2">
             <img
@@ -104,7 +114,9 @@
             />
           </router-link>
           <div class="p-5">
-            <p class="text-lg font-bold text-black truncate block capitalize">
+            <p
+              class="text-lg lg:text-xl font-semibold text-black truncate block capitalize"
+            >
               Fruit Bland
             </p>
           </div>

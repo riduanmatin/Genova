@@ -13,7 +13,7 @@
         >
           <router-link to="/">
             <img
-              src="../../assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
+              src="../../assets/images/product/powder/powder-matchalatte.png"
               alt="Product"
               class="h-60 w-56 object-contain rounded-t-xl"
             />
@@ -30,7 +30,7 @@
         >
           <router-link to="/">
             <img
-              src="../../assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
+              src="../../assets/images/product/syrup/syrup-pineapple.png"
               alt="Product"
               class="h-60 w-56 object-contain rounded-t-xl"
             />
@@ -47,7 +47,7 @@
         >
           <router-link to="/">
             <img
-              src="../../assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
+              src="../../assets/images/product/fruit-bland/fruit_bland_kiwi.png"
               alt="Product"
               class="h-60 w-56 object-contain rounded-t-xl"
             />
@@ -64,7 +64,7 @@
         >
           <router-link to="/fruit-bland">
             <img
-              src="../../assets/images/product/Fruit Bland/fruit_bland_kiwi.png"
+              src="../../assets/images/product/fruit-bland/fruit_bland_passion.png"
               alt="Product"
               class="h-60 w-56 object-contain rounded-t-xl"
             />

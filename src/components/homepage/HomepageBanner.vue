@@ -35,7 +35,7 @@
         <div class="relative lg:w-1/2">
           <img
             class="object-contain w-full h-56 rounded sm:h-96"
-            src="../../assets/images/banner/homepage banner images.png"
+            src="../../assets/images/banner/homepage-banner.png"
             alt=""
           />
         </div>

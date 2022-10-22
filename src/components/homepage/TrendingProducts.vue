@@ -4,15 +4,24 @@
   <section class="container mx-auto background">
     <div class="banner"></div>
     <div class="p-6 lg:px-6 lg:py-12 xl:px-12">
-      <h1 class="text-left text-black mb-2 font-semibold">TRENDING PRODUCTS</h1>
+      <div class="flex flex-row">
+        <h1 class="text-left text-black mb-2 font-semibold">
+          TRENDING PRODUCTS
+        </h1>
+        <!-- <div class="rating space-y-6">
+          <p class="slider1"></p>
+          <p class="slider2"></p>
+          <p class="slider3"></p>
+        </div> -->
+      </div>
       <hr class="h-1 rounded w-32 bg-black border-0" />
       <div
         class="grid grid-cols-2 md:grid-cols-4 justify-items-center justify-center gap-12 mt-10 mb-5"
       >
-        <div class="flex flex-col h-fit">
+        <div class="flex flex-col h-fit shadow-md">
           <a href="#">
             <img
-              src="../../assets/images/product/powder/powder matcha latte.png"
+              src="../../assets/images/product/powder/powder-matchalatte.png"
               alt="Product"
               class="h-60 w-56 object-contain rounded-t-xl"
             />
@@ -34,10 +43,10 @@
           </div>
         </div>
 
-        <div class="flex flex-col h-fit">
+        <div class="flex flex-col h-fit shadow-md">
           <a href="#">
             <img
-              src="../../assets/images/product/syrup/syrup_lychee-removebg-preview.png"
+              src="../../assets/images/product/syrup/syrup_banana-removebg-preview.png"
               alt="Product"
               class="h-60 w-56 object-contain rounded-t-xl"
             />
@@ -59,10 +68,10 @@
           </div>
         </div>
 
-        <div class="flex flex-col h-fit">
+        <div class="flex flex-col h-fit shadow-md">
           <a href="#">
             <img
-              src="../../assets/images/product/powder/powder dark chocolate.png"
+              src="../../assets/images/product/powder/powder-darkchocolate.png"
               alt="Product"
               class="h-60 w-56 object-contain rounded-t-xl"
             />
@@ -83,10 +92,10 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col h-fit">
+        <div class="flex flex-col h-fit shadow-md">
           <a href="#">
             <img
-              src="../../assets/images/product/powder/powder red velvet.png"
+              src="../../assets/images/product/powder/powder-redvelvet.png"
               alt="Product"
               class="h-60 w-56 object-contain rounded-t-xl"
             />
@@ -99,11 +108,13 @@
             </p>
             <p class="text-lg text-gray-600">RP. 109,000</p>
             <div class="">
-              <button
-                class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
-              >
-                See More
-              </button>
+              <router-link to="/detail-product">
+                <button
+                  class="rounded-lg px-4 py-2 bg-yellow-400 hover:bg-yellow-600 duration-300"
+                >
+                  See More
+                </button>
+              </router-link>
             </div>
           </div>
         </div>
@@ -238,5 +249,38 @@ button {
 }
 .background {
   background: #fffbe8;
+}
+
+.rating {
+  width: 40.19px;
+  height: 42.98px;
+  left: 403px;
+  top: 40px;
+}
+.slider1 {
+  width: 29.96px;
+  height: 4px;
+  left: 414.97px;
+  top: 68px;
+  background: #ffd31d;
+  border-radius: 8px;
+  transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
+}
+.slider2 {
+  width: 16px;
+  height: 3.99px;
+  left: 403px;
+  top: 56px;
+  background: #ffd31d;
+  border-radius: 8px;
+  transform: rotate(-90deg);
+}
+.slider3 {
+  width: 15.96px;
+  height: 4px;
+  left: 426.94px;
+  top: 79px;
+  background: #ffd31d;
+  border-radius: 8px;
 }
 </style>

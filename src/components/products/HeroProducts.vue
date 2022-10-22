@@ -1,7 +1,7 @@
 <template>
   <section class="container mx-auto">
     <div
-      class="relative w-full height background flex items-center justify-center text-center bg-cover bg-center opacity-60"
+      class="relative w-full height-banner background flex items-center justify-center text-center bg-cover bg-center opacity-60"
     >
       <main class="px-4 sm:px-6 lg:px-8 z-10">
         <div class="text-center border-h2 p-2">
@@ -24,11 +24,8 @@ export default {
 };
 </script>
 <style scoped>
-.height {
-  height: 60vh;
-}
 .background {
-  background-image: url(../../assets/images/banner/hero-product-banner.jpg);
+  background-image: url(../../assets/images/banner/product-page-banner.jpg);
 }
 .border-h2 {
   border: 2px solid #997f11;

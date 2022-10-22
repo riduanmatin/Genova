@@ -12,7 +12,7 @@
         <div class="flex flex-col h-fit bg-white">
           <a href="#">
             <img
-              src="../../assets/images/product/Syrup/syrup pineapple.png"
+              src="../../assets/images/product/Syrup/syrup-pineapple.png"
               alt="Product"
               class="h-60 w-56 object-contain rounded-t-xl"
             />
@@ -35,7 +35,7 @@
         <div class="flex flex-col h-fit bg-white">
           <a href="#">
             <img
-              src="../../assets/images/product/Syrup/syrup raspberry.png"
+              src="../../assets/images/product/Syrup/syrup-raspberry.png"
               alt="Product"
               class="h-60 w-56 object-contain rounded-t-xl"
             />
