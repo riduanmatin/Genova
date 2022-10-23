@@ -1,8 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <section class="container mx-auto background-yellow mb-4">
-    <div class="banner"></div>
-    <div class="py-6 px-4 lg:px-6 lg:py-12 xl:px-12">
+  <section class="container mx-auto mb-4">
+    <div class="p-6 lg:px-6 lg:py-12 xl:px-12">
       <h1 class="text-left text-black mb-2 text-lg md:text-2xl">
         Standart Recipe
       </h1>

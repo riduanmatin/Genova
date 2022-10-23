@@ -3,9 +3,9 @@
   <section class="container mx-auto">
     <div class="container-awal py-12">
       <div class="about-section">
-        <div class="inner-container inner-container-shadow justify-center">
-          <h1>About Us</h1>
-          <p class="font-semibold">
+        <div class="inner-container inner-container-shadow justify-center p-24">
+          <h1 class="text-lg md:text-3xl lg:text-4xl">About Us</h1>
+          <p class="font-semibold mt-12">
             GENOVA adalah perusahaan yang bergerak memproduksi Premium Sirup,
             Powder Drink dan Fruitblend dengan harga yang terjangkau.
             Menggunakan bahan baku impor berkualitas, bersertifikasi halal serta
@@ -50,19 +50,12 @@
 .inner-container {
   width: 55%;
   background-color: #fdfdfd;
-  padding: 60px;
 }
 
 .inner-container-shadow {
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
     rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
     rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-}
-
-.inner-container h1 {
-  margin-bottom: 30px;
-  font-size: 30px;
-  font-weight: 900;
 }
 
 @media screen and (max-width: 1200px) {

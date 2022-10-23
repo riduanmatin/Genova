@@ -2,10 +2,9 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <section class="container mx-auto background">
-    <div class="banner"></div>
     <div class="p-6 lg:px-6 lg:py-12 xl:px-12">
       <div class="flex flex-row">
-        <h1 class="text-left text-black mb-2 font-semibold">
+        <h1 class="text-left text-black mb-2 font-semibold text-xl">
           TRENDING PRODUCTS
         </h1>
         <!-- <div class="rating space-y-6">
@@ -18,7 +17,7 @@
       <div
         class="grid grid-cols-2 md:grid-cols-4 justify-items-center justify-center gap-12 mt-10 mb-5"
       >
-        <div class="flex flex-col h-fit shadow-md">
+        <div class="flex flex-col h-fit">
           <a href="#">
             <img
               src="../../assets/images/product/powder/powder-matchalatte.png"
@@ -43,7 +42,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col h-fit shadow-md">
+        <div class="flex flex-col h-fit">
           <a href="#">
             <img
               src="../../assets/images/product/syrup/syrup_banana-removebg-preview.png"
@@ -68,7 +67,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col h-fit shadow-md">
+        <div class="flex flex-col h-fit">
           <a href="#">
             <img
               src="../../assets/images/product/powder/powder-darkchocolate.png"
@@ -92,7 +91,7 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col h-fit shadow-md">
+        <div class="flex flex-col h-fit">
           <a href="#">
             <img
               src="../../assets/images/product/powder/powder-redvelvet.png"

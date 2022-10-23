@@ -1,15 +1,14 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <section class="container mx-auto">
-    <div class="banner"></div>
     <div class="py-6 px-4 lg:px-6 lg:py-12 xl:px-12">
-      <h1 class="text-left text-black mb-2 font-semibold">PRODUCTS</h1>
+      <h1 class="text-left text-black mb-2 font-semibold text-xl">PRODUCTS</h1>
       <hr class="h-1 rounded w-28 bg-black border-0" />
       <div
         class="grid grid-cols-2 md:grid-cols-3 justify-items-center justify-center gap-6 mt-10 mb-5"
       >
         <div
-          class="flex flex-col bg-yellow-200 p-5 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
+          class="flex flex-col background-yellow-light p-5 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
           <router-link to="/liquid-syrup" class="p-2">
             <img
@@ -28,7 +27,7 @@
         </div>
 
         <div
-          class="flex flex-col bg-yellow-200 p-5 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
+          class="flex flex-col background-yellow-light p-5 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
           <router-link to="/powder-syrup" class="p-2">
             <img
@@ -47,7 +46,7 @@
         </div>
 
         <div
-          class="flex flex-col bg-yellow-200 p-5 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
+          class="flex flex-col background-yellow-light p-5 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
           <router-link to="/fruit-bland" class="p-2">
             <img
@@ -66,7 +65,7 @@
         </div>
 
         <div
-          class="flex flex-col bg-yellow-200 p-5 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
+          class="flex flex-col background-yellow-light p-5 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
           <router-link to="/liquid-syrup" class="p-2">
             <img
@@ -85,7 +84,7 @@
         </div>
 
         <div
-          class="flex flex-col bg-yellow-200 p-5 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
+          class="flex flex-col background-yellow-light p-5 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
           <router-link to="/powder-syrup" class="p-2">
             <img
@@ -104,7 +103,7 @@
         </div>
 
         <div
-          class="flex flex-col bg-yellow-200 p-5 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
+          class="flex flex-col background-yellow-light p-5 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
         >
           <router-link to="/fruit-bland" class="p-2">
             <img

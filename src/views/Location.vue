@@ -3,18 +3,18 @@
   <!-- Tabs -->
   <section class="container mx-auto">
     <div class="my-12">
-      <ul class="flex flex-row mb-4 justify-center gap-2">
-        <li class="text-center underline">
+      <ul class="flex flex-col md:flex-row justify-center gap-6">
+        <li class="text-center border-4 border-yellow-200 mx-8 p-2">
           <h2
-            class="text-lg cursor-pointer block rounded py-3 px-4 transition"
+            class="text-xl lg:text-2xl cursor-pointer block rounded py-3 px-4 transition"
             @click.prevent="tab = 'offline'"
           >
             Offline Store
           </h2>
         </li>
-        <li class="text-center">
+        <li class="text-center border-4 border-yellow-200 mx-8 p-2">
           <h2
-            class="text-lg cursor-pointer block rounded py-3 px-4 transition"
+            class="text-lg lg:text-2xl cursor-pointer block rounded py-3 px-4 transition"
             @click.prevent="tab = 'online'"
           >
             Online Store
@@ -40,4 +40,9 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+li {
+  border-style: solid 2px;
+  border-color: #fff2bb;
+}
+</style>
