@@ -1,19 +1,22 @@
-<!-- eslint-disable no-undef -->
-<!-- eslint-disable no-undef -->
 <template>
   <section class="container mx-auto">
-    <div class="px-6 py-12 xl:px-12">
-      <div class="flex flex-col md:flex md:flex-row md:justify-between gap-2">
-        <h1
-          class="text-lg text-center md:text-left text-black mb-2 font-semibold underline md:text-xl"
-        >
-          Powder Syrup
-        </h1>
+    <div class="mt-2 p-8 lg:px-6 lg:py-12 xl:px-12">
+      <div
+        class="flex flex-col gap-y-12 md:flex md:flex-row md:justify-between md:gap-x-2"
+      >
+        <div class="">
+          <h1
+            class="text-left text-black mb-2 font-semibold text-xl md:text-2xl"
+          >
+            POWDER SYRUP
+          </h1>
+          <hr class="h-1 rounded w-28 bg-black border-0" />
+        </div>
 
         <div class="flex justify-between pb-3 gap-2">
           <div class="max-w-md mx-auto">
             <div
-              class="relative flex items-center w-full h-12 rounded-lg border bg-white overflow-hidden"
+              class="relative flex items-center w-full h-12 rounded-lg border-2 bg-white overflow-hidden"
             >
               <div class="grid place-items-center h-full w-12 text-gray-300">
                 <svg
@@ -45,10 +48,12 @@
       </div>
 
       <div
-        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center justify-center gap-24 mt-10 mb-5"
+        class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center justify-center gap-24 mt-10 mb-5"
       >
         <div v-for="product in resultQuery" :key="product.id">
-          <div class="flex flex-col h-fit background-yellow p-5 md:rounded-xl">
+          <div
+            class="flex flex-col h-fit max-w-xs mx-4 background-yellow p-6 md:rounded-xl"
+          >
             <a href="#">
               <img
                 :src="product.image"
@@ -56,23 +61,13 @@
                 class="h-60 w-56 object-contain rounded-t-xl"
               />
             </a>
-            <div class="flex flex-col gap-3 p-5">
+            <div class="flex flex-col gap-3 p-6">
               <p
                 class="text-base md:text-lg font-semibold text-black truncate block capitalize"
               >
                 {{ product.name }}
               </p>
-              <p class="text-base md:text-lg text-gray-600">
-                RP. {{ product.price }}
-              </p>
-              <div class="">
-                <button
-                  @click="shareData()"
-                  class="rounded-lg px-4 py-1.5 bg-yellow-400 hover:bg-yellow-600 duration-300"
-                >
-                  Buy
-                </button>
-              </div>
+              <p class=":text-lg text-gray-600">RP. {{ product.price }}</p>
             </div>
           </div>
         </div>
@@ -107,13 +102,13 @@ export default {
         },
         {
           id: 5,
-          name: "Powder Chocolate Classic",
+          name: "Powder Chocolate",
           image: "powder-chocolateclassic.png",
           price: "139,000",
         },
         {
           id: 6,
-          name: "Powder Cookies & Cream",
+          name: "Powder Cookies",
           image: "powder-cookiescream.png",
           price: "155,000",
         },

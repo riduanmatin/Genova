@@ -3,10 +3,10 @@
   <!-- Tabs -->
   <section class="container mx-auto">
     <div class="my-12">
-      <ul class="flex flex-row mb-4 justify-center gap-2">
+      <ul class="flex flex-col md:flex-row justify-center gap-2">
         <li class="text-center underline">
           <h2
-            class="text-lg cursor-pointer block rounded py-3 px-4 transition"
+            class="text-2xl cursor-pointer block rounded py-3 px-4 transition"
             @click.prevent="tab = 'offline'"
           >
             Offline Store
@@ -14,7 +14,7 @@
         </li>
         <li class="text-center">
           <h2
-            class="text-lg cursor-pointer block rounded py-3 px-4 transition"
+            class="text-2xl cursor-pointer block rounded py-3 px-4 transition"
             @click.prevent="tab = 'online'"
           >
             Online Store

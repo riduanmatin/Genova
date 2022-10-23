@@ -1,72 +1,51 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <section class="container mx-auto">
-    <div class="contact-banner opacity-75">
-      <div class="flex flex-col">
-        <div
-          class="px-4 py-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
-        >
-          <div class="max-w-xl sm:mx-auto lg:max-w-2xl">
-            <div class="flex flex-col mb-16 sm:text-center sm:mb-0">
-              <a href="/" class="mb-6 self-center sm:mx-auto">
-                <div
-                  class="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50"
-                >
-                  <svg
-                    class="w-10 h-10 text-deep-purple-accent-400"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      stroke-width="3"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    ></polygon>
-                  </svg>
-                </div>
-              </a>
-              <div
-                class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12"
+    <div class="flex flex-col py-6">
+      <div
+        class="px-4 py-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
+      >
+        <div class="max-w-xl sm:mx-auto lg:max-w-2xl">
+          <div class="flex flex-col mb-16 sm:text-center sm:mb-0">
+            <div
+              class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12"
+            >
+              <h2
+                class="max-w-lg mb-6 font-sans text-4xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto"
               >
-                <h2
-                  class="max-w-lg mb-6 font-sans text-4xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto"
-                >
-                  Contact Us
-                </h2>
-                <p class="text-lg text-gray-800 md:text-xl">
-                  Get in touch with us for more information
-                </p>
-              </div>
+                Contact Us
+              </h2>
+              <p class="text-lg text-gray-800 md:text-xl">
+                Get in touch with us for more information
+              </p>
             </div>
           </div>
         </div>
-        <div class="flex flex-col gap-6 pb-6 px-4 lg:px-6">
-          <div class="contact-info">
-            <div class="card">
-              <i class="card-icon far fa-envelope"></i>
-              <p class="text-base font-semibold">
-                genovaindonesiaofficial@gmail.com
-              </p>
-            </div>
+      </div>
+      <div class="flex flex-col gap-6 pb-6 px-4 lg:px-6">
+        <div class="contact-info">
+          <div class="card">
+            <i class="card-icon far fa-envelope"></i>
+            <p class="text-base font-semibold">
+              genovaindonesiaofficial@gmail.com
+            </p>
+          </div>
 
-            <div class="card">
-              <i class="card-icon fas fa-phone"></i>
-              <p class="text-base font-semibold">
-                <a href="tel:081212128171" class="hover:text-blue-400"
-                  >081212128171</a
-                >
-              </p>
-            </div>
+          <div class="card">
+            <i class="card-icon fas fa-phone"></i>
+            <p class="text-base font-semibold">
+              <a href="tel:081212128171" class="hover:text-blue-400"
+                >081212128171</a
+              >
+            </p>
+          </div>
 
-            <div class="card">
-              <i class="card-icon fas fa-map-marker-alt"></i>
-              <p class="text-base font-semibold">
-                Komplek PU jln B no 18 RC Veteran - tanah kusir jakarta Selatan
-                12330
-              </p>
-            </div>
+          <div class="card">
+            <i class="card-icon fas fa-map-marker-alt"></i>
+            <p class="text-base font-semibold">
+              Komplek PU jln B no 18 RC Veteran - tanah kusir jakarta Selatan
+              12330
+            </p>
           </div>
         </div>
       </div>
@@ -80,14 +59,6 @@
   width: 100%;
   align-items: center;
   justify-content: center;
-}
-
-.contact-banner {
-  background: url(../../assets/images/banner/Contact-Banner.jpeg) no-repeat left;
-  background-size: fill;
-  background-position: center center;
-  background-color: #fdfdfd;
-  overflow: hidden;
 }
 
 .card {
